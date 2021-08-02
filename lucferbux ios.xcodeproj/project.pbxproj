@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E98CDFDE26B7F45700722C1B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98CDFDD26B7F45700722C1B /* Tests_iOS.swift */; };
+		E98CDFE926B7F45700722C1B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98CDFE826B7F45700722C1B /* Tests_macOS.swift */; };
+		E98CDFEB26B7F45700722C1B /* lucferbux_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98CDFC226B7F45600722C1B /* lucferbux_iosApp.swift */; };
+		E98CDFEC26B7F45700722C1B /* lucferbux_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98CDFC226B7F45600722C1B /* lucferbux_iosApp.swift */; };
+		E98CDFED26B7F45700722C1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98CDFC326B7F45600722C1B /* ContentView.swift */; };
+		E98CDFEE26B7F45700722C1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98CDFC326B7F45600722C1B /* ContentView.swift */; };
+		E98CDFEF26B7F45700722C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98CDFC426B7F45700722C1B /* Assets.xcassets */; };
+		E98CDFF026B7F45700722C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98CDFC426B7F45700722C1B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E98CDFDA26B7F45700722C1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E98CDFBD26B7F45500722C1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E98CDFC826B7F45700722C1B;
+			remoteInfo = "lucferbux ios (iOS)";
+		};
+		E98CDFE526B7F45700722C1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E98CDFBD26B7F45500722C1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E98CDFD026B7F45700722C1B;
+			remoteInfo = "lucferbux ios (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E98CDFC226B7F45600722C1B /* lucferbux_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lucferbux_iosApp.swift; sourceTree = "<group>"; };
+		E98CDFC326B7F45600722C1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E98CDFC426B7F45700722C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E98CDFC926B7F45700722C1B /* lucferbux ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lucferbux ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98CDFCC26B7F45700722C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E98CDFD126B7F45700722C1B /* lucferbux ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lucferbux ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98CDFD326B7F45700722C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E98CDFD426B7F45700722C1B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		E98CDFD926B7F45700722C1B /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98CDFDD26B7F45700722C1B /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		E98CDFDF26B7F45700722C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E98CDFE426B7F45700722C1B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98CDFE826B7F45700722C1B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		E98CDFEA26B7F45700722C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E98CDFC626B7F45700722C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98CDFCE26B7F45700722C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98CDFD626B7F45700722C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98CDFE126B7F45700722C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E98CDFBC26B7F45500722C1B = {
+			isa = PBXGroup;
+			children = (
+				E98CDFC126B7F45600722C1B /* Shared */,
+				E98CDFCB26B7F45700722C1B /* iOS */,
+				E98CDFD226B7F45700722C1B /* macOS */,
+				E98CDFDC26B7F45700722C1B /* Tests iOS */,
+				E98CDFE726B7F45700722C1B /* Tests macOS */,
+				E98CDFCA26B7F45700722C1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E98CDFC126B7F45600722C1B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E98CDFC226B7F45600722C1B /* lucferbux_iosApp.swift */,
+				E98CDFC326B7F45600722C1B /* ContentView.swift */,
+				E98CDFC426B7F45700722C1B /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E98CDFCA26B7F45700722C1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E98CDFC926B7F45700722C1B /* lucferbux ios.app */,
+				E98CDFD126B7F45700722C1B /* lucferbux ios.app */,
+				E98CDFD926B7F45700722C1B /* Tests iOS.xctest */,
+				E98CDFE426B7F45700722C1B /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E98CDFCB26B7F45700722C1B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E98CDFCC26B7F45700722C1B /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		E98CDFD226B7F45700722C1B /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E98CDFD326B7F45700722C1B /* Info.plist */,
+				E98CDFD426B7F45700722C1B /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		E98CDFDC26B7F45700722C1B /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E98CDFDD26B7F45700722C1B /* Tests_iOS.swift */,
+				E98CDFDF26B7F45700722C1B /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		E98CDFE726B7F45700722C1B /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E98CDFE826B7F45700722C1B /* Tests_macOS.swift */,
+				E98CDFEA26B7F45700722C1B /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E98CDFC826B7F45700722C1B /* lucferbux ios (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E98CDFF326B7F45700722C1B /* Build configuration list for PBXNativeTarget "lucferbux ios (iOS)" */;
+			buildPhases = (
+				E98CDFC526B7F45700722C1B /* Sources */,
+				E98CDFC626B7F45700722C1B /* Frameworks */,
+				E98CDFC726B7F45700722C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lucferbux ios (iOS)";
+			productName = "lucferbux ios (iOS)";
+			productReference = E98CDFC926B7F45700722C1B /* lucferbux ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E98CDFD026B7F45700722C1B /* lucferbux ios (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E98CDFF626B7F45700722C1B /* Build configuration list for PBXNativeTarget "lucferbux ios (macOS)" */;
+			buildPhases = (
+				E98CDFCD26B7F45700722C1B /* Sources */,
+				E98CDFCE26B7F45700722C1B /* Frameworks */,
+				E98CDFCF26B7F45700722C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lucferbux ios (macOS)";
+			productName = "lucferbux ios (macOS)";
+			productReference = E98CDFD126B7F45700722C1B /* lucferbux ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E98CDFD826B7F45700722C1B /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E98CDFF926B7F45700722C1B /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				E98CDFD526B7F45700722C1B /* Sources */,
+				E98CDFD626B7F45700722C1B /* Frameworks */,
+				E98CDFD726B7F45700722C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E98CDFDB26B7F45700722C1B /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = E98CDFD926B7F45700722C1B /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E98CDFE326B7F45700722C1B /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E98CDFFC26B7F45700722C1B /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				E98CDFE026B7F45700722C1B /* Sources */,
+				E98CDFE126B7F45700722C1B /* Frameworks */,
+				E98CDFE226B7F45700722C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E98CDFE626B7F45700722C1B /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = E98CDFE426B7F45700722C1B /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E98CDFBD26B7F45500722C1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E98CDFC826B7F45700722C1B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					E98CDFD026B7F45700722C1B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					E98CDFD826B7F45700722C1B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E98CDFC826B7F45700722C1B;
+					};
+					E98CDFE326B7F45700722C1B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E98CDFD026B7F45700722C1B;
+					};
+				};
+			};
+			buildConfigurationList = E98CDFC026B7F45500722C1B /* Build configuration list for PBXProject "lucferbux ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E98CDFBC26B7F45500722C1B;
+			productRefGroup = E98CDFCA26B7F45700722C1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E98CDFC826B7F45700722C1B /* lucferbux ios (iOS) */,
+				E98CDFD026B7F45700722C1B /* lucferbux ios (macOS) */,
+				E98CDFD826B7F45700722C1B /* Tests iOS */,
+				E98CDFE326B7F45700722C1B /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E98CDFC726B7F45700722C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98CDFEF26B7F45700722C1B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98CDFCF26B7F45700722C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98CDFF026B7F45700722C1B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98CDFD726B7F45700722C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98CDFE226B7F45700722C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E98CDFC526B7F45700722C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98CDFED26B7F45700722C1B /* ContentView.swift in Sources */,
+				E98CDFEB26B7F45700722C1B /* lucferbux_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98CDFCD26B7F45700722C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98CDFEE26B7F45700722C1B /* ContentView.swift in Sources */,
+				E98CDFEC26B7F45700722C1B /* lucferbux_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98CDFD526B7F45700722C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98CDFDE26B7F45700722C1B /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98CDFE026B7F45700722C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98CDFE926B7F45700722C1B /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E98CDFDB26B7F45700722C1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E98CDFC826B7F45700722C1B /* lucferbux ios (iOS) */;
+			targetProxy = E98CDFDA26B7F45700722C1B /* PBXContainerItemProxy */;
+		};
+		E98CDFE626B7F45700722C1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E98CDFD026B7F45700722C1B /* lucferbux ios (macOS) */;
+			targetProxy = E98CDFE526B7F45700722C1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E98CDFF126B7F45700722C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E98CDFF226B7F45700722C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E98CDFF426B7F45700722C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Y2Y846R76;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios";
+				PRODUCT_NAME = "lucferbux ios";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E98CDFF526B7F45700722C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Y2Y846R76;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios";
+				PRODUCT_NAME = "lucferbux ios";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E98CDFF726B7F45700722C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7Y2Y846R76;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios";
+				PRODUCT_NAME = "lucferbux ios";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E98CDFF826B7F45700722C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7Y2Y846R76;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios";
+				PRODUCT_NAME = "lucferbux ios";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E98CDFFA26B7F45700722C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Y2Y846R76;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "lucferbux ios (iOS)";
+			};
+			name = Debug;
+		};
+		E98CDFFB26B7F45700722C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Y2Y846R76;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "lucferbux ios (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E98CDFFD26B7F45700722C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7Y2Y846R76;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "lucferbux ios (macOS)";
+			};
+			name = Debug;
+		};
+		E98CDFFE26B7F45700722C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7Y2Y846R76;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "lucferbux ios (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E98CDFC026B7F45500722C1B /* Build configuration list for PBXProject "lucferbux ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98CDFF126B7F45700722C1B /* Debug */,
+				E98CDFF226B7F45700722C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E98CDFF326B7F45700722C1B /* Build configuration list for PBXNativeTarget "lucferbux ios (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98CDFF426B7F45700722C1B /* Debug */,
+				E98CDFF526B7F45700722C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E98CDFF626B7F45700722C1B /* Build configuration list for PBXNativeTarget "lucferbux ios (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98CDFF726B7F45700722C1B /* Debug */,
+				E98CDFF826B7F45700722C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E98CDFF926B7F45700722C1B /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98CDFFA26B7F45700722C1B /* Debug */,
+				E98CDFFB26B7F45700722C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E98CDFFC26B7F45700722C1B /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98CDFFD26B7F45700722C1B /* Debug */,
+				E98CDFFE26B7F45700722C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E98CDFBD26B7F45500722C1B /* Project object */;
+}
