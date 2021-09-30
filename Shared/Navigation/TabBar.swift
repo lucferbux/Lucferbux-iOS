@@ -11,44 +11,37 @@ struct TabBar: View {
     var body: some View {
         TabView {
             NavigationView {
-                ContentView()
+                NewsView()
             }
             .tabItem {
-                Image(systemName: "list.bullet.rectangle")
-                Text("Courses")
+                Image(systemName: "house")
+                Text("Home")
             }
             
             NavigationView {
-                ContentView()
+                ProjectsView()
             }
             .tabItem {
-                Image(systemName: "list.bullet.rectangle")
-                Text("Tutorials")
+                Image(systemName: "chevron.left.forwardslash.chevron.right")
+                Text("Projects")
             }
             
             NavigationView {
-                ContentView()
+                PostsView()
             }
             .tabItem {
-                Image(systemName: "tv")
-                Text("Livestreams")
+                Image(systemName: "books.vertical")
+                Text("Posts")
             }
             
             NavigationView {
-                ContentView()
+                AboutMeView()
             }
             .tabItem {
-                Image(systemName: "mail.stack")
-                Text("Certificates")
+                Image(systemName: "person")
+                Text("About Me")
             }
             
-            NavigationView {
-                ContentView()
-            }
-            .tabItem {
-                Image(systemName: "magnifyingglass")
-                Text("Search")
-            }
         }
     }
 }

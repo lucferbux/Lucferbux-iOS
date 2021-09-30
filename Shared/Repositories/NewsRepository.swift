@@ -15,17 +15,17 @@ class NewsRepository:  ObservableObject {
     
     private let path: String = "intro"
     private let store = Firestore.firestore()
-    @Published var news: [News] = []
+    @Published var news: NewsList = []
     
     init() {
         loadNews()
     }
     
     func loadNews() {
-        store.collection(path).addSnapshotListener { (querySnapshot, error) in
+        store.collection(path).order(by: "timestamp", descending: true).addSnapshotListener { (querySnapshot, error) in
             
             if let error = error {
-                print("Error getting cards: \(error.localizedDescription)")
+                print("Error getting news: \(error.localizedDescription)")
                 return
               }
                         
