@@ -1,14 +1,13 @@
 //
-//  ProjectRowView.swift
+//  ProjectCardView.swift
 //  lucferbux ios
 //
-//  Created by lucas fernández on 30/9/21.
+//  Created by lucas fernández on 1/10/21.
 //
 
 import SwiftUI
 
-
-struct ProjectRowView: View {
+struct ProjectCardView: View {
     var projectViewModel: ProjectViewModel
     
     var body: some View {
@@ -30,16 +29,21 @@ struct ProjectRowView: View {
                 }
                 Text(projectViewModel.project.description ?? "")
                     .font(.body)
+                    .lineLimit(3)
             }
-            .padding(.vertical, 8)
+            .padding()
         }.buttonStyle(PlainButtonStyle())
+            .background(Color("Background 2"))
+            .cornerRadius(20.0)
+            .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+            
           
     }
 }
 
-struct ProjectRowView_Previews: PreviewProvider {
+struct ProjectCardView_Previews: PreviewProvider {
     static var previews: some View {
         let project = projectListMock[0]
-        ProjectRowView(projectViewModel: ProjectViewModel(project: project))
+        ProjectCardView(projectViewModel: ProjectViewModel(project: project))
     }
 }

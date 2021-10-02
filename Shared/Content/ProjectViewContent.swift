@@ -13,9 +13,19 @@ struct ProjectViewContent: View {
     var body: some View {
 
             List(projectListViewModel.projectsViewModel) { projectListViewModel in
+                #if os(iOS)
                 ProjectRowView(projectViewModel: projectListViewModel)
-
+                #else
+                HStack {
+                    Spacer()
+                    ProjectRowViewMac(projectViewModel: projectListViewModel)
+                    Spacer()
+                }
+            
+                #endif
             }
+            
+
         
     }
 }

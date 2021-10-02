@@ -14,12 +14,12 @@ struct NewsViewContent: View {
     var body: some View {
         ScrollView {
             LazyVGrid(
-                columns: [GridItem(.adaptive(minimum: 320), spacing: 0)],
-                spacing: 0) {
+                columns: [GridItem(.adaptive(minimum: 300), spacing: 20)],
+                spacing: 20) {
                     ForEach(newsListViewModel.newsViewModels) { newsViewModel in
-                        NewsCardView(newsViewModel: newsViewModel).padding()
+                        NewsCardView(newsViewModel: newsViewModel)
                     }
-            }
+                }.padding(.horizontal)
         }
     }
                     

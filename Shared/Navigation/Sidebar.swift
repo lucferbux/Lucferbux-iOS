@@ -27,7 +27,9 @@ struct Sidebar: View {
             #else
             sidebar
                 .frame(minWidth: 100, idealWidth: 150, maxWidth: 200, maxHeight: .infinity)
+                .padding(.top)
             NewsView()
+                .padding()
             #endif
         
             
