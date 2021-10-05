@@ -50,12 +50,12 @@
         }
       ],
       "color" : {
-        "color-space" : "srgb",
+        "color-space" : "display-p3",
         "components" : {
           "alpha" : "1.000",
-          "blue" : "0.141",
-          "green" : "0.141",
-          "red" : "0.141"
+          "blue" : "0x16",
+          "green" : "0x0F",
+          "red" : "0x0F"
         }
       },
       "idiom" : "mac"

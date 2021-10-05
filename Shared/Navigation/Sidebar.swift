@@ -44,10 +44,17 @@ struct Sidebar: View {
             }
             .tag(NavigationItem.news)
             
-            NavigationLink(destination: ProjectsView()) {
-                Label("Projects", systemImage: "chevron.left.forwardslash.chevron.right")
+            if #available(macOS 12.0, iOS 15.0, *){
+                NavigationLink(destination: ProjectsView()) {
+                    Label("Projects", systemImage: "chevron.left.forwardslash.chevron.right")
+                }
+                .tag(NavigationItem.projects)
+            } else {
+                NavigationLink(destination: ProjectsView()) {
+                    Label("Projects", systemImage: "laptopcomputer.and.iphone")
+                }
+                .tag(NavigationItem.projects)
             }
-            .tag(NavigationItem.projects)
             
             NavigationLink(destination: PostsView()) {
                 Label("Posts", systemImage: "books.vertical")

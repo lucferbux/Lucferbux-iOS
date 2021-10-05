@@ -9,15 +9,18 @@ import SwiftUI
 
 struct NewsViewContent: View {
     @ObservedObject var newsListViewModel = NewsListViewModel()
-    
-    
+        
     var body: some View {
-        ScrollView {
+        ScrollView {            
             LazyVGrid(
                 columns: [GridItem(.adaptive(minimum: 300), spacing: 20)],
                 spacing: 20) {
                     ForEach(newsListViewModel.newsViewModels) { newsViewModel in
-                        NewsCardView(newsViewModel: newsViewModel)
+                        
+                        NavigationLink(destination: NewsViewDetailContent(newsViewModel: newsViewModel)) {
+                            NewsCardView(newsViewModel: newsViewModel)
+                        }
+                        .buttonStyle(.plain)
                     }
                 }.padding(.horizontal)
         }

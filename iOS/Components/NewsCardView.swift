@@ -12,27 +12,6 @@ struct NewsCardView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-//            AsyncImage(url: URL(string: newsViewModel.news.image)) { phase in
-//                        switch phase {
-//                        case .empty:
-//                            Image("LoadingPlaceholder").resizable()
-//                                .aspectRatio(contentMode: .fit)
-//                        case .success(let image):
-//                            image.resizable()
-//                                 .aspectRatio(contentMode: .fit)
-//                        case .failure:
-//                            Image("LoadingPlaceholder").resizable()
-//                                .aspectRatio(contentMode: .fit)
-//                        @unknown default:
-//                            // Since the AsyncImagePhase enum isn't frozen,
-//                            // we need to add this currently unused fallback
-//                            // to handle any new cases that might be added
-//                            // in the future:
-//
-//                            Image("LoadingPlaceholder").resizable()
-//                                .aspectRatio(contentMode: .fit)
-//                        }
-//                    }
             AsyncImageCustom(
                 url: URL(string: newsViewModel.news.image)!,
                 placeholder: { Image("LoadingPlaceholder").resizable() },
@@ -45,7 +24,7 @@ struct NewsCardView: View {
                 }
             ).aspectRatio(contentMode: .fit)
             VStack(alignment: .leading, spacing: 4.0) {
-                Text(newsViewModel.news.title ?? "")
+                Text(newsViewModel.news.title_en ?? "")
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 Text(newsViewModel.news.getDate())
                     .font(.footnote)
