@@ -16,6 +16,8 @@ struct NewsViewDetailContent: View {
                 VStack(alignment: .leading, spacing: 4)  {
                     Text(newsViewModel.news.title_en ?? "")
                         .font(.largeTitle)
+                        .fontWeight(.bold)
+                        
                     Text(newsViewModel.news.getDate())
                         .font(.callout)
                 }
