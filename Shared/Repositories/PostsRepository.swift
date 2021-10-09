@@ -2,7 +2,7 @@
 //  PostsRepository.swift
 //  lucferbux ios
 //
-//  Created by lucas fernández on 30/9/21.
+//  Created by lucas fernández on 6/10/21.
 //
 
 import Foundation
@@ -10,17 +10,17 @@ import FirebaseFirestore
 import FirebaseFirestoreSwift
 import Combine
 
-class ProjectsRepository:  ObservableObject {
+class PostsRepository:  ObservableObject {
     
-    private let path: String = "project"
+    private let path: String = "patent"
     private let store = Firestore.firestore()
-    @Published var projects: ProjectList = []
+    @Published var posts: PostList = []
     
     init() {
-        loadProjects()
+        loadPosts()
     }
     
-    func loadProjects() {
+    func loadPosts() {
         store.collection(path).order(by: "date", descending: true).addSnapshotListener { (querySnapshot, error) in
             
             if let error = error {
@@ -28,15 +28,13 @@ class ProjectsRepository:  ObservableObject {
                 return
               }
                         
-            let projects = querySnapshot?.documents.compactMap { document in
-                try? document.data(as: Project.self)
+            let posts = querySnapshot?.documents.compactMap { document in
+                try? document.data(as: Post.self)
             } ?? []
                         
             DispatchQueue.main.async {
-                self.projects = projects
+                self.posts = posts
             }
         }
     }
-    
-
 }

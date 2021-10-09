@@ -10,8 +10,8 @@ import SwiftUI
 struct PostsView: View {
 
     var body: some View {
-        Text("Post View")
-            
+        PostViewContent()
+            .navigationTitle("Posts")
     }
 }
 

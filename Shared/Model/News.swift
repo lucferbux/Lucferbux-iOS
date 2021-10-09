@@ -34,7 +34,7 @@ struct News: Codable, Identifiable {
 }
 
 
-#if DEBUG
+
 let newsListMock: NewsList = [
     News(_id: "1c3sYHXNIo1sHCzp0tlh",
         id: "1c3sYHXNIo1sHCzp0tlh",
@@ -59,4 +59,4 @@ let newsListMock: NewsList = [
     url: "https://www.elladodelmal.com/2019/10/airdrop-crazy-lo-que-pasa-en-tu-iphone.html",
     loaded: false),
 ]
-#endif
+

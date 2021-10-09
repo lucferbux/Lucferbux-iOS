@@ -34,7 +34,7 @@ struct Project: Codable, Identifiable {
 }
 
 
-#if DEBUG
+
 let projectListMock: ProjectList = [
     Project(_id: "1c3sYHXNIo1sHCzp0tlh",
         id: "1c3sYHXNIo1sHCzp0tlh",
@@ -49,4 +49,4 @@ let projectListMock: ProjectList = [
          link: "https://github.com/lucferbux/WebPageLucferbux"
          )
 ]
-#endif
+

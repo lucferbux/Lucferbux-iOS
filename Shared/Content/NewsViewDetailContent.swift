@@ -35,9 +35,16 @@ struct NewsViewDetailContent: View {
                 ).aspectRatio(contentMode: .fit)
                     .cornerRadius(6)
                 Text(newsViewModel.news.description_en ?? "")
+                #if os(macOS)
+                    .font(.body)
+                    
+                #endif
             }
             .frame(maxWidth: 700)
             .padding(.horizontal)
+            #if os(macOS)
+            .padding(.top)
+            #endif
                 
         }
         #if os(iOS)

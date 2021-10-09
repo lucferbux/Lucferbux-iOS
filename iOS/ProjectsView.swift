@@ -14,9 +14,11 @@ struct ProjectsView: View {
     var body: some View {
         if horizontalSizeClass == .compact {
             ProjectViewContent()
+                .background(Color("Background Body"))
                 .navigationTitle("Projects")
         } else {
             ProjectViewCardContent()
+                .background(Color("Background Body"))
             .navigationTitle("Projects")
         }
     }

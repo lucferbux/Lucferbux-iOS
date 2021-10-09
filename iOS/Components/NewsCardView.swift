@@ -31,7 +31,7 @@ struct NewsCardView: View {
             }
             .padding([.leading, .bottom, .trailing])
         }
-        .background(Color("Background 2"))
+        .background(Color("Background Cell"))
         .cornerRadius(20.0)
         .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
     }

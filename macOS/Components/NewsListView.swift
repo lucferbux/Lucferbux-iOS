@@ -20,9 +20,11 @@ struct NewsListView: View {
                 }
             )
              .clipped()
+             .aspectRatio(contentMode: .fill)
              .frame(width: 36, height: 28)
              .cornerRadius(4)
              .padding(.top, 2)
+        
             
             VStack(alignment: .leading, spacing: 4.0) {
                 Text(newsViewModel.news.title_en ?? "")

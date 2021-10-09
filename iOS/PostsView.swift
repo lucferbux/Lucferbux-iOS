@@ -8,9 +8,18 @@
 import SwiftUI
 
 struct PostsView: View {
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass: UserInterfaceSizeClass?
+    
     var body: some View {
-        Text("Posts View")
-            .navigationTitle("Posts")
+        if horizontalSizeClass == .compact {
+            PostViewContent()
+                .background(Color("Background Body"))
+                .navigationTitle("Posts")
+        } else {
+            PostViewCardContent()
+                .background(Color("Background Body"))
+                .navigationTitle("Posts")
+        }
     }
 }
 

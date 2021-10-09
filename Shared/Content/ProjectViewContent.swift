@@ -11,22 +11,21 @@ struct ProjectViewContent: View {
     @ObservedObject var projectListViewModel = ProjectListviewModel()
     
     var body: some View {
-
+            #if os(iOS)
             List(projectListViewModel.projectsViewModel) { projectListViewModel in
-                #if os(iOS)
                 ProjectRowView(projectViewModel: projectListViewModel)
-                #else
-                HStack {
-                    Spacer()
-                    ProjectRowViewMac(projectViewModel: projectListViewModel)
-                    Spacer()
-                }
-            
-                #endif
             }
-            
-
-        
+            #else
+            ScrollView{
+                ForEach(projectListViewModel.projectsViewModel) { projectListViewModel in
+                    HStack {
+                        Spacer()
+                        ProjectRowViewMac(projectViewModel: projectListViewModel)
+                        Spacer()
+                    }
+                }.padding(.top)
+            }
+            #endif
     }
 }
 

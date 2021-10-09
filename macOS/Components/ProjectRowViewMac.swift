@@ -15,7 +15,7 @@ struct ProjectRowViewMac: View {
         VStack(alignment: .leading, spacing: 10) {
             VStack(alignment: .leading, spacing: 2) {
                 HStack {
-                    Text(projectViewModel.project.title ?? "")
+                    Text(projectViewModel.project.title_en ?? "")
                         .font(.headline)
                     Spacer()
                     Text(projectViewModel.project.version ?? "0.0.0")
