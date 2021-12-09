@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct PostsView: View {
+    
 
     var body: some View {
-        PostViewContent()
+        PostViewMacContent()
             .navigationTitle("Posts")
     }
+    
 }
 
 struct PostsView_Previews: PreviewProvider {

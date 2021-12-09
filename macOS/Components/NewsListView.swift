@@ -28,7 +28,7 @@ struct NewsListView: View {
             
             VStack(alignment: .leading, spacing: 4.0) {
                 Text(newsViewModel.news.title_en ?? "")
-                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                    .fontWeight(.bold)
                 Text(newsViewModel.news.getDate())
                     .font(.footnote)
             }

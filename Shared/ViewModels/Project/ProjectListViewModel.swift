@@ -8,7 +8,7 @@
 import Foundation
 import Combine
 
-class ProjectListviewModel: ObservableObject {
+class ProjectListViewModel: ObservableObject {
     
     @Published var projectsViewModel: [ProjectViewModel] = []
     private var cancellables: Set<AnyCancellable> = []

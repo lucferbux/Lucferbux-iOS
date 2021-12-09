@@ -39,7 +39,7 @@ struct AboutMeContent: View {
                             
                     }
                     
-                    HStack(alignment: .center, spacing: 10) {
+                    HStack(alignment: .center, spacing: 20) {
                         ForEach(buttons, id: \.self.name) { button in
                             CompactButton(link: button)
                                 

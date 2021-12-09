@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ProjectsView: View {
     var body: some View {
-        ProjectViewContent()
+        ProjectViewMacContent()
             .navigationTitle("Projects")
     }
 }

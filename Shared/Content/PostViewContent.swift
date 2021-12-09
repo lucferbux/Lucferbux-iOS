@@ -13,19 +13,8 @@ struct PostViewContent: View {
     var body: some View {
         ScrollView{
             ForEach(postListViewModel.postViewModel) { postViewModel in
-                #if os(iOS)
                 PostViewRow(postViewModel: postViewModel)
-                #else
-                HStack {
-                    Spacer()
-                    PostRowViewMac(postViewModel: postViewModel)
-                    Spacer()
-                }
-                #endif
             }
-            #if os(macOS)
-            .padding(.top)
-            #endif
         }
             
             

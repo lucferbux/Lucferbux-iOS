@@ -26,14 +26,26 @@ struct Sidebar: View {
             NewsView()
             #else
             sidebar
-                .frame(minWidth: 100, idealWidth: 150, maxWidth: 200, maxHeight: .infinity)
+                .frame(minWidth: 150)
                 .padding(.top)
+                .toolbar {
+                        Button(action: toggleSidebar) {
+                            Image(systemName: "sidebar.left")
+                                .help("Toggle Sidebar")
+                            }
+                }
+                    
             NewsView()
                 .padding()
             #endif
         
             
         }
+    }
+    
+    private func toggleSidebar() {
+        NSApp.keyWindow?.firstResponder?
+            .tryToPerform(#selector(NSSplitViewController.toggleSidebar(_:)), with: nil)
     }
     
     var sidebar: some View {

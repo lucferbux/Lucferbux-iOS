@@ -16,6 +16,7 @@ struct NewsViewDetailContent: View {
                 VStack(alignment: .leading, spacing: 4)  {
                     Text(newsViewModel.news.title_en ?? "")
                         .font(.largeTitle)
+                        
                         .fontWeight(.bold)
                         
                     Text(newsViewModel.news.getDate())
@@ -36,8 +37,8 @@ struct NewsViewDetailContent: View {
                     .cornerRadius(6)
                 Text(newsViewModel.news.description_en ?? "")
                 #if os(macOS)
-                    .font(.body)
-                    
+                    .font(.title3)
+                    .lineSpacing(6)
                 #endif
             }
             .frame(maxWidth: 700)
@@ -57,6 +58,6 @@ struct NewsViewDetailContent: View {
 struct NewsViewDetailContent_Previews: PreviewProvider {
     static var previews: some View {
         let news = newsListMock[0]
-        NewsViewDetailContent(newsViewModel: NewsViewModel(news: news))
+        NewsViewDetailContent(newsViewModel: NewsViewModel(news: news)).previewLayout(.fixed(width: 1200, height: 2000))
     }
 }

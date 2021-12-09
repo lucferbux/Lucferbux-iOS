@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F29A5FE276114D0003AB797 /* SwiftUIViewWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A5FD276114D0003AB797 /* SwiftUIViewWebView.swift */; };
+		1F29A5FF276114D0003AB797 /* SwiftUIViewWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A5FD276114D0003AB797 /* SwiftUIViewWebView.swift */; };
+		1F29A60227613DB6003AB797 /* PostViewMacContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A60027613DB6003AB797 /* PostViewMacContent.swift */; };
+		1F29A60427614AF0003AB797 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A60327614AF0003AB797 /* PostListView.swift */; };
+		1F29A60827614E95003AB797 /* MacWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A60727614E95003AB797 /* MacWebView.swift */; };
+		1F29A60B2762220C003AB797 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 1F29A60A2762220C003AB797 /* Lottie */; };
+		1F29A60E27622265003AB797 /* Loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F29A60D27622265003AB797 /* Loading.json */; };
+		1F29A61127622290003AB797 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A60F2762226D003AB797 /* LottieView.swift */; };
+		1F29A61427622489003AB797 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 1F29A61327622489003AB797 /* Lottie */; };
+		1F29A61727622501003AB797 /* LottieViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A61627622501003AB797 /* LottieViewMac.swift */; };
+		1F29A61927622638003AB797 /* Loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F29A60D27622265003AB797 /* Loading.json */; };
+		1F29A61B27623063003AB797 /* NavigationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A61A27623063003AB797 /* NavigationAction.swift */; };
+		1F29A61D2762369B003AB797 /* ProjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A61C2762369B003AB797 /* ProjectListView.swift */; };
+		1F29A61F27623805003AB797 /* ProjectViewMacContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A61E27623805003AB797 /* ProjectViewMacContent.swift */; };
 		E9170DF626B847D800F27BE9 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E9170DF526B847D800F27BE9 /* FirebaseFirestore */; };
 		E9170E0426B847D800F27BE9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E9170E0326B847D800F27BE9 /* FirebaseAuth */; };
 		E91F225C26FFC45000543354 /* Lucferbux Watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E91F225B26FFC45000543354 /* Lucferbux Watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -18,7 +32,7 @@
 		E91F227A26FFC45200543354 /* Lucferbux_WatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F227926FFC45200543354 /* Lucferbux_WatchTests.swift */; };
 		E91F228426FFC45200543354 /* Lucferbux_WatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F228326FFC45200543354 /* Lucferbux_WatchUITests.swift */; };
 		E91F228626FFC45200543354 /* Lucferbux_WatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F228526FFC45200543354 /* Lucferbux_WatchUITestsLaunchTests.swift */; };
-		E91F228926FFC45200543354 /* Lucferbux Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E91F225326FFC44E00543354 /* Lucferbux Watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E91F228926FFC45200543354 /* Lucferbux.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E91F225326FFC44E00543354 /* Lucferbux.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E91F229826FFC71400543354 /* lucferbux_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98CDFC226B7F45600722C1B /* lucferbux_iosApp.swift */; };
 		E91FE24927048CE000F8F219 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E91FE24827048CE000F8F219 /* GoogleService-Info.plist */; };
 		E91FE24A27048CE500F8F219 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E91FE24827048CE000F8F219 /* GoogleService-Info.plist */; };
@@ -48,9 +62,10 @@
 		E9337962270E28A800C25D88 /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9337961270E28A800C25D88 /* PostCardView.swift */; };
 		E9337963270E28A800C25D88 /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9337961270E28A800C25D88 /* PostCardView.swift */; };
 		E9337965270E2D0C00C25D88 /* PostViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9337964270E2D0C00C25D88 /* PostViewContent.swift */; };
-		E9337966270E2D0C00C25D88 /* PostViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9337964270E2D0C00C25D88 /* PostViewContent.swift */; };
 		E9337968270E2D1F00C25D88 /* PostViewCardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9337967270E2D1F00C25D88 /* PostViewCardContent.swift */; };
 		E9337969270E2D1F00C25D88 /* PostViewCardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9337967270E2D1F00C25D88 /* PostViewCardContent.swift */; };
+		E940DEC727113CFD00B62678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98CDFC426B7F45700722C1B /* Assets.xcassets */; };
+		E940DEC827113D0100B62678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98CDFC426B7F45700722C1B /* Assets.xcassets */; };
 		E94417B126F7887D006CE5D4 /* NewsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94417B026F7887D006CE5D4 /* NewsCardView.swift */; };
 		E94417B726F78DE5006CE5D4 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94417B626F78DE5006CE5D4 /* TabBar.swift */; };
 		E94417B826F78DE5006CE5D4 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94417B626F78DE5006CE5D4 /* TabBar.swift */; };
@@ -59,7 +74,6 @@
 		E94FF4492708EE7C0021B4B7 /* NewsViewDetailContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94FF4472708EE7C0021B4B7 /* NewsViewDetailContent.swift */; };
 		E952365F270BA3AD00D99CB4 /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E952365E270BA3AD00D99CB4 /* NewsListView.swift */; };
 		E9523662270C418500D99CB4 /* NewsViewMacContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9523661270C418500D99CB4 /* NewsViewMacContent.swift */; };
-		E96B2025270F5015001D677E /* PostRowViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B2024270F5015001D677E /* PostRowViewMac.swift */; };
 		E96B20282710F0C7001D677E /* CompactButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B20262710F01B001D677E /* CompactButton.swift */; };
 		E96B202C2710F9AB001D677E /* AboutMeContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B202A2710F8C8001D677E /* AboutMeContent.swift */; };
 		E96B202D2710FFC0001D677E /* JobViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E933795B270E20CA00C25D88 /* JobViewRow.swift */; };
@@ -107,7 +121,6 @@
 		E9AA98652705D305003BFA46 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA985E2705D305003BFA46 /* ImageCache.swift */; };
 		E9AA98662705D305003BFA46 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA985E2705D305003BFA46 /* ImageCache.swift */; };
 		E9AA98692705D9DE003BFA46 /* NSImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA98672705D9DE003BFA46 /* NSImageExtension.swift */; };
-		E9AA986B2705DA4E003BFA46 /* ProjectViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA98572705B585003BFA46 /* ProjectViewContent.swift */; };
 		E9AA986E2705DA56003BFA46 /* SectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF782127049C63003BD36B /* SectionTitle.swift */; };
 		E9AA98702705DA56003BFA46 /* DateTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF782427049D3D003BD36B /* DateTitle.swift */; };
 		E9AF782227049C63003BD36B /* SectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF782127049C63003BD36B /* SectionTitle.swift */; };
@@ -144,6 +157,13 @@
 			remoteGlobalIDString = E91F225226FFC44E00543354;
 			remoteInfo = "Lucferbux Watch";
 		};
+		E96B203327113525001D677E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E98CDFBD26B7F45500722C1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E91F225226FFC44E00543354;
+			remoteInfo = "Lucferbux Watch";
+		};
 		E98CDFDA26B7F45700722C1B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E98CDFBD26B7F45500722C1B /* Project object */;
@@ -167,7 +187,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				E91F228926FFC45200543354 /* Lucferbux Watch.app in Embed Watch Content */,
+				E91F228926FFC45200543354 /* Lucferbux.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,7 +206,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E91F225326FFC44E00543354 /* Lucferbux Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lucferbux Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F29A5FD276114D0003AB797 /* SwiftUIViewWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewWebView.swift; sourceTree = "<group>"; };
+		1F29A60027613DB6003AB797 /* PostViewMacContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewMacContent.swift; sourceTree = "<group>"; };
+		1F29A60327614AF0003AB797 /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		1F29A60727614E95003AB797 /* MacWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacWebView.swift; sourceTree = "<group>"; };
+		1F29A60D27622265003AB797 /* Loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loading.json; sourceTree = "<group>"; };
+		1F29A60F2762226D003AB797 /* LottieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		1F29A61627622501003AB797 /* LottieViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewMac.swift; sourceTree = "<group>"; };
+		1F29A61A27623063003AB797 /* NavigationAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationAction.swift; sourceTree = "<group>"; };
+		1F29A61C2762369B003AB797 /* ProjectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListView.swift; sourceTree = "<group>"; };
+		1F29A61E27623805003AB797 /* ProjectViewMacContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewMacContent.swift; sourceTree = "<group>"; };
+		E91F225326FFC44E00543354 /* Lucferbux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lucferbux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91F225B26FFC45000543354 /* Lucferbux Watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Lucferbux Watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91F226226FFC45100543354 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E91F226426FFC45100543354 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
@@ -219,12 +249,16 @@
 		E9337961270E28A800C25D88 /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
 		E9337964270E2D0C00C25D88 /* PostViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewContent.swift; sourceTree = "<group>"; };
 		E9337967270E2D1F00C25D88 /* PostViewCardContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewCardContent.swift; sourceTree = "<group>"; };
+		E940DECE2711403A00B62678 /* Lucferbux-Watch-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Lucferbux-Watch-Info.plist"; sourceTree = "<group>"; };
 		E94417B026F7887D006CE5D4 /* NewsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCardView.swift; sourceTree = "<group>"; };
 		E94417B626F78DE5006CE5D4 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		E94450A1271CB47100FE8020 /* Lucferbux (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lucferbux (iOS).entitlements"; sourceTree = "<group>"; };
+		E94450A2271CB4AE00FE8020 /* Lucferbux (iOS)Release.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lucferbux (iOS)Release.entitlements"; sourceTree = "<group>"; };
+		E94450A3271D5FDA00FE8020 /* Lucferbux Watch WatchKit ExtensionRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lucferbux Watch WatchKit ExtensionRelease.entitlements"; sourceTree = "<group>"; };
+		E94450A4271D5FE400FE8020 /* Lucferbux Watch WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lucferbux Watch WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		E94FF4472708EE7C0021B4B7 /* NewsViewDetailContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewDetailContent.swift; sourceTree = "<group>"; };
 		E952365E270BA3AD00D99CB4 /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
 		E9523661270C418500D99CB4 /* NewsViewMacContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewMacContent.swift; sourceTree = "<group>"; };
-		E96B2024270F5015001D677E /* PostRowViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRowViewMac.swift; sourceTree = "<group>"; };
 		E96B20262710F01B001D677E /* CompactButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactButton.swift; sourceTree = "<group>"; };
 		E96B202A2710F8C8001D677E /* AboutMeContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeContent.swift; sourceTree = "<group>"; };
 		E96B20302711119D001D677E /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
@@ -298,6 +332,7 @@
 				E9170DF626B847D800F27BE9 /* FirebaseFirestore in Frameworks */,
 				E9D22C1B2700F47100BEC407 /* FirebaseFirestoreSwift-Beta in Frameworks */,
 				E9170E0426B847D800F27BE9 /* FirebaseAuth in Frameworks */,
+				1F29A60B2762220C003AB797 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +340,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F29A61427622489003AB797 /* Lottie in Frameworks */,
 				E9992D522700CF10002066CB /* FirebaseAuth in Frameworks */,
 				E9D22C192700F46700BEC407 /* FirebaseFirestoreSwift-Beta in Frameworks */,
 				E9992D702700CF10002066CB /* FirebaseStorage in Frameworks */,
@@ -329,6 +365,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F29A60C27622256003AB797 /* LottieAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				1F29A60D27622265003AB797 /* Loading.json */,
+			);
+			path = LottieAnimations;
+			sourceTree = "<group>";
+		};
 		E91F225426FFC44E00543354 /* Lucferbux Watch */ = {
 			isa = PBXGroup;
 			children = (
@@ -339,6 +383,8 @@
 		E91F225F26FFC45000543354 /* Lucferbux Watch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				E94450A4271D5FE400FE8020 /* Lucferbux Watch WatchKit Extension.entitlements */,
+				E94450A3271D5FDA00FE8020 /* Lucferbux Watch WatchKit ExtensionRelease.entitlements */,
 				E91F226226FFC45100543354 /* ContentView.swift */,
 				E91F226426FFC45100543354 /* NotificationController.swift */,
 				E91F226626FFC45100543354 /* NotificationView.swift */,
@@ -426,7 +472,9 @@
 			children = (
 				E952365E270BA3AD00D99CB4 /* NewsListView.swift */,
 				E9BEB1532707180A00766C77 /* ProjectRowViewMac.swift */,
-				E96B2024270F5015001D677E /* PostRowViewMac.swift */,
+				1F29A60327614AF0003AB797 /* PostListView.swift */,
+				1F29A60727614E95003AB797 /* MacWebView.swift */,
+				1F29A61C2762369B003AB797 /* ProjectListView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -434,6 +482,9 @@
 		E98CDFBC26B7F45500722C1B = {
 			isa = PBXGroup;
 			children = (
+				E94450A2271CB4AE00FE8020 /* Lucferbux (iOS)Release.entitlements */,
+				E94450A1271CB47100FE8020 /* Lucferbux (iOS).entitlements */,
+				E940DECE2711403A00B62678 /* Lucferbux-Watch-Info.plist */,
 				E98CDFC126B7F45600722C1B /* Shared */,
 				E98CDFCB26B7F45700722C1B /* iOS */,
 				E98CDFD226B7F45700722C1B /* macOS */,
@@ -471,7 +522,7 @@
 				E98CDFD126B7F45700722C1B /* Lucferbux.app */,
 				E98CDFD926B7F45700722C1B /* Tests iOS.xctest */,
 				E98CDFE426B7F45700722C1B /* Tests macOS.xctest */,
-				E91F225326FFC44E00543354 /* Lucferbux Watch.app */,
+				E91F225326FFC44E00543354 /* Lucferbux.app */,
 				E91F225B26FFC45000543354 /* Lucferbux Watch WatchKit Extension.appex */,
 				E91F227526FFC45200543354 /* Lucferbux WatchTests.xctest */,
 				E91F227F26FFC45200543354 /* Lucferbux WatchUITests.xctest */,
@@ -550,6 +601,7 @@
 				E933793F270DFB8C00C25D88 /* Post.swift */,
 				E9337942270DFCD500C25D88 /* Job.swift */,
 				E96B20302711119D001D677E /* Link.swift */,
+				1F29A61A27623063003AB797 /* NavigationAction.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -580,11 +632,15 @@
 		E9AF782027049C1C003BD36B /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				1F29A60C27622256003AB797 /* LottieAnimations */,
 				E9AA985A2705D2F1003BFA46 /* AsyncImage */,
 				E9AF782127049C63003BD36B /* SectionTitle.swift */,
 				E9AF782427049D3D003BD36B /* DateTitle.swift */,
 				E96B20262710F01B001D677E /* CompactButton.swift */,
 				E933795B270E20CA00C25D88 /* JobViewRow.swift */,
+				1F29A5FD276114D0003AB797 /* SwiftUIViewWebView.swift */,
+				1F29A60F2762226D003AB797 /* LottieView.swift */,
+				1F29A61627622501003AB797 /* LottieViewMac.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -609,8 +665,10 @@
 				E94FF4472708EE7C0021B4B7 /* NewsViewDetailContent.swift */,
 				E9AA98572705B585003BFA46 /* ProjectViewContent.swift */,
 				E9BEB1562707312200766C77 /* ProjectViewCardContent.swift */,
+				1F29A61E27623805003AB797 /* ProjectViewMacContent.swift */,
 				E9337964270E2D0C00C25D88 /* PostViewContent.swift */,
 				E9337967270E2D1F00C25D88 /* PostViewCardContent.swift */,
+				1F29A60027613DB6003AB797 /* PostViewMacContent.swift */,
 				E96B202A2710F8C8001D677E /* AboutMeContent.swift */,
 			);
 			path = Content;
@@ -633,7 +691,7 @@
 			);
 			name = "Lucferbux Watch";
 			productName = "Lucferbux Watch";
-			productReference = E91F225326FFC44E00543354 /* Lucferbux Watch.app */;
+			productReference = E91F225326FFC44E00543354 /* Lucferbux.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		E91F225A26FFC45000543354 /* Lucferbux Watch WatchKit Extension */ = {
@@ -703,12 +761,14 @@
 			buildRules = (
 			);
 			dependencies = (
+				E96B203427113525001D677E /* PBXTargetDependency */,
 			);
 			name = "Lucferbux (iOS)";
 			packageProductDependencies = (
 				E9170DF526B847D800F27BE9 /* FirebaseFirestore */,
 				E9170E0326B847D800F27BE9 /* FirebaseAuth */,
 				E9D22C1A2700F47100BEC407 /* FirebaseFirestoreSwift-Beta */,
+				1F29A60A2762220C003AB797 /* Lottie */,
 			);
 			productName = "lucferbux ios (iOS)";
 			productReference = E98CDFC926B7F45700722C1B /* Lucferbux.app */;
@@ -732,6 +792,7 @@
 				E9992D5B2700CF10002066CB /* FirebaseFirestore */,
 				E9992D6F2700CF10002066CB /* FirebaseStorage */,
 				E9D22C182700F46700BEC407 /* FirebaseFirestoreSwift-Beta */,
+				1F29A61327622489003AB797 /* Lottie */,
 			);
 			productName = "lucferbux ios (macOS)";
 			productReference = E98CDFD126B7F45700722C1B /* Lucferbux.app */;
@@ -780,7 +841,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					E91F225226FFC44E00543354 = {
 						CreatedOnToolsVersion = 13.0;
@@ -823,6 +884,7 @@
 			mainGroup = E98CDFBC26B7F45500722C1B;
 			packageReferences = (
 				E9170DF426B847D800F27BE9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				1F29A6092762220C003AB797 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = E98CDFCA26B7F45700722C1B /* Products */;
 			projectDirPath = "";
@@ -845,6 +907,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E940DEC727113CFD00B62678 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -852,6 +915,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E940DEC827113D0100B62678 /* Assets.xcassets in Resources */,
 				E91F226E26FFC45100543354 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -876,6 +940,7 @@
 			files = (
 				E98CDFEF26B7F45700722C1B /* Assets.xcassets in Resources */,
 				E91FE24927048CE000F8F219 /* GoogleService-Info.plist in Resources */,
+				1F29A61927622638003AB797 /* Loading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -885,6 +950,7 @@
 			files = (
 				E98CDFF026B7F45700722C1B /* Assets.xcassets in Resources */,
 				E91FE24A27048CE500F8F219 /* GoogleService-Info.plist in Resources */,
+				1F29A60E27622265003AB797 /* Loading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -948,10 +1014,12 @@
 				E9337950270E198C00C25D88 /* PostViewModel.swift in Sources */,
 				E9337953270E19A000C25D88 /* PostListViewModel.swift in Sources */,
 				E9AA98612705D305003BFA46 /* AsyncImageCustom.swift in Sources */,
+				1F29A61127622290003AB797 /* LottieView.swift in Sources */,
 				E9337965270E2D0C00C25D88 /* PostViewContent.swift in Sources */,
 				E9AA98522705B2FE003BFA46 /* ProjectViewModel.swift in Sources */,
 				E9AF782227049C63003BD36B /* SectionTitle.swift in Sources */,
 				E9337946270E147C00C25D88 /* PostsRepository.swift in Sources */,
+				1F29A5FE276114D0003AB797 /* SwiftUIViewWebView.swift in Sources */,
 				E9337940270DFB8C00C25D88 /* Post.swift in Sources */,
 				E91FE24F27048FB300F8F219 /* ProjectsView.swift in Sources */,
 				E9337956270E19AB00C25D88 /* JobViewModel.swift in Sources */,
@@ -996,26 +1064,29 @@
 				E9523662270C418500D99CB4 /* NewsViewMacContent.swift in Sources */,
 				E96B202E2711007E001D677E /* AboutMeContent.swift in Sources */,
 				E9AA984A2705AF97003BFA46 /* ProjectsRepository.swift in Sources */,
+				1F29A61D2762369B003AB797 /* ProjectListView.swift in Sources */,
 				E98D899327049314003B60AF /* NewsView.swift in Sources */,
+				1F29A60427614AF0003AB797 /* PostListView.swift in Sources */,
 				E98CDFEC26B7F45700722C1B /* lucferbux_iosApp.swift in Sources */,
 				E94417B826F78DE5006CE5D4 /* TabBar.swift in Sources */,
-				E9AA986B2705DA4E003BFA46 /* ProjectViewContent.swift in Sources */,
 				E9AA98562705B309003BFA46 /* ProjectListViewModel.swift in Sources */,
 				E94FF4462708EA820021B4B7 /* ContentView.swift in Sources */,
 				E9337954270E19A000C25D88 /* PostListViewModel.swift in Sources */,
 				E98D899527049326003B60AF /* ProjectsView.swift in Sources */,
-				E96B2025270F5015001D677E /* PostRowViewMac.swift in Sources */,
 				E96B20322711119D001D677E /* Link.swift in Sources */,
 				E9992DC12700DE55002066CB /* NewsViewModel.swift in Sources */,
 				E9AA98702705DA56003BFA46 /* DateTitle.swift in Sources */,
 				E9992DB32700DBB4002066CB /* News.swift in Sources */,
 				E9AA98532705B2FE003BFA46 /* ProjectViewModel.swift in Sources */,
 				E94FF4492708EE7C0021B4B7 /* NewsViewDetailContent.swift in Sources */,
+				1F29A61F27623805003AB797 /* ProjectViewMacContent.swift in Sources */,
 				E9AA98602705D305003BFA46 /* ImageLoader.swift in Sources */,
 				E98D899727049331003B60AF /* PostsView.swift in Sources */,
 				E9337951270E198C00C25D88 /* PostViewModel.swift in Sources */,
 				E9AA98622705D305003BFA46 /* AsyncImageCustom.swift in Sources */,
 				E9AA98692705D9DE003BFA46 /* NSImageExtension.swift in Sources */,
+				1F29A61B27623063003AB797 /* NavigationAction.swift in Sources */,
+				1F29A60827614E95003AB797 /* MacWebView.swift in Sources */,
 				E9AA98662705D305003BFA46 /* ImageCache.swift in Sources */,
 				E9BEB1542707180A00766C77 /* ProjectRowViewMac.swift in Sources */,
 				E9337941270DFB8C00C25D88 /* Post.swift in Sources */,
@@ -1023,16 +1094,18 @@
 				E9337947270E147C00C25D88 /* PostsRepository.swift in Sources */,
 				E9337969270E2D1F00C25D88 /* PostViewCardContent.swift in Sources */,
 				E98D89992704933D003B60AF /* AboutMeView.swift in Sources */,
+				1F29A61727622501003AB797 /* LottieViewMac.swift in Sources */,
 				E9AA986E2705DA56003BFA46 /* SectionTitle.swift in Sources */,
 				E9AF782A2704E74A003BD36B /* Sidebar.swift in Sources */,
 				E9337944270DFCD500C25D88 /* Job.swift in Sources */,
 				E96B202D2710FFC0001D677E /* JobViewRow.swift in Sources */,
 				E933794A270E149B00C25D88 /* JobsRepository.swift in Sources */,
 				E9992DA92700DB42002066CB /* NewsListViewModel.swift in Sources */,
-				E9337966270E2D0C00C25D88 /* PostViewContent.swift in Sources */,
+				1F29A5FF276114D0003AB797 /* SwiftUIViewWebView.swift in Sources */,
 				E9337963270E28A800C25D88 /* PostCardView.swift in Sources */,
 				E96B202F2711111A001D677E /* CompactButton.swift in Sources */,
 				E933795A270E19BC00C25D88 /* JobListViewModel.swift in Sources */,
+				1F29A60227613DB6003AB797 /* PostViewMacContent.swift in Sources */,
 				E9AA984D2705B051003BFA46 /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1071,6 +1144,11 @@
 			target = E91F225226FFC44E00543354 /* Lucferbux Watch */;
 			targetProxy = E91F228026FFC45200543354 /* PBXContainerItemProxy */;
 		};
+		E96B203427113525001D677E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E91F225226FFC44E00543354 /* Lucferbux Watch */;
+			targetProxy = E96B203327113525001D677E /* PBXContainerItemProxy */;
+		};
 		E98CDFDB26B7F45700722C1B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E98CDFC826B7F45700722C1B /* Lucferbux (iOS) */;
@@ -1093,16 +1171,16 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Lucferbux_Watch_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "Lucferbux Watch";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.lucferbux.Lucferbux;
+				INFOPLIST_FILE = "Lucferbux-Watch-Info.plist";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.lucferbux.lucferbux-ios";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Lucferbux;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1121,16 +1199,16 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Lucferbux_Watch_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "Lucferbux Watch";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.lucferbux.Lucferbux;
+				INFOPLIST_FILE = "Lucferbux-Watch-Info.plist";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.lucferbux.lucferbux-ios";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Lucferbux;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1146,8 +1224,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_ENTITLEMENTS = "Lucferbux Watch WatchKit Extension/Lucferbux Watch WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Lucferbux Watch WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				ENABLE_PREVIEWS = YES;
@@ -1179,8 +1258,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_ENTITLEMENTS = "Lucferbux Watch WatchKit Extension/Lucferbux Watch WatchKit ExtensionRelease.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Lucferbux Watch WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				ENABLE_PREVIEWS = YES;
@@ -1434,7 +1514,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Lucferbux (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
@@ -1456,7 +1538,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Lucferbux (iOS)Release.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
@@ -1480,7 +1564,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 2;
@@ -1506,7 +1590,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 2;
@@ -1702,6 +1786,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		1F29A6092762220C003AB797 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		E9170DF426B847D800F27BE9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
@@ -1713,6 +1805,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		1F29A60A2762220C003AB797 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F29A6092762220C003AB797 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		1F29A61327622489003AB797 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F29A6092762220C003AB797 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
 		E9170DF526B847D800F27BE9 /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E9170DF426B847D800F27BE9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

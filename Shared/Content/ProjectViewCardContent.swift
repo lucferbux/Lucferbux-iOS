@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ProjectViewCardContent: View {
-    @ObservedObject var projectListViewModel = ProjectListviewModel()
+    @ObservedObject var projectListViewModel = ProjectListViewModel()
     
     var body: some View {
         ScrollView {
@@ -21,8 +21,6 @@ struct ProjectViewCardContent: View {
             }.padding(.horizontal)
         }
     }
-    
-    
 }
 
 struct ProjectViewCardContent_Previews: PreviewProvider {

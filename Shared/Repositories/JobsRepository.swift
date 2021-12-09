@@ -21,7 +21,7 @@ class JobsRepository:  ObservableObject {
     }
     
     func loadJobs() {
-        store.collection(path).order(by: "importance", descending: true).addSnapshotListener { (querySnapshot, error) in
+        store.collection(path).order(by: "importance", descending: false).addSnapshotListener { (querySnapshot, error) in
             
             if let error = error {
                 print("Error getting projects: \(error.localizedDescription)")
