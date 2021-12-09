@@ -21,6 +21,7 @@
 		1F29A61B27623063003AB797 /* NavigationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A61A27623063003AB797 /* NavigationAction.swift */; };
 		1F29A61D2762369B003AB797 /* ProjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A61C2762369B003AB797 /* ProjectListView.swift */; };
 		1F29A61F27623805003AB797 /* ProjectViewMacContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A61E27623805003AB797 /* ProjectViewMacContent.swift */; };
+		1F29A6232762AC8A003AB797 /* iOSWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A6222762AC8A003AB797 /* iOSWebView.swift */; };
 		E9170DF626B847D800F27BE9 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E9170DF526B847D800F27BE9 /* FirebaseFirestore */; };
 		E9170E0426B847D800F27BE9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E9170E0326B847D800F27BE9 /* FirebaseAuth */; };
 		E91F225C26FFC45000543354 /* Lucferbux Watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E91F225B26FFC45000543354 /* Lucferbux Watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -216,6 +217,7 @@
 		1F29A61A27623063003AB797 /* NavigationAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationAction.swift; sourceTree = "<group>"; };
 		1F29A61C2762369B003AB797 /* ProjectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListView.swift; sourceTree = "<group>"; };
 		1F29A61E27623805003AB797 /* ProjectViewMacContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewMacContent.swift; sourceTree = "<group>"; };
+		1F29A6222762AC8A003AB797 /* iOSWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSWebView.swift; sourceTree = "<group>"; };
 		E91F225326FFC44E00543354 /* Lucferbux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lucferbux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91F225B26FFC45000543354 /* Lucferbux Watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Lucferbux Watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91F226226FFC45100543354 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -653,6 +655,7 @@
 				E9AA984E2705B2C0003BFA46 /* ProjectRowView.swift */,
 				E9337961270E28A800C25D88 /* PostCardView.swift */,
 				E933795E270E252A00C25D88 /* PostViewRow.swift */,
+				1F29A6222762AC8A003AB797 /* iOSWebView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -1019,6 +1022,7 @@
 				E9AA98522705B2FE003BFA46 /* ProjectViewModel.swift in Sources */,
 				E9AF782227049C63003BD36B /* SectionTitle.swift in Sources */,
 				E9337946270E147C00C25D88 /* PostsRepository.swift in Sources */,
+				1F29A6232762AC8A003AB797 /* iOSWebView.swift in Sources */,
 				1F29A5FE276114D0003AB797 /* SwiftUIViewWebView.swift in Sources */,
 				E9337940270DFB8C00C25D88 /* Post.swift in Sources */,
 				E91FE24F27048FB300F8F219 /* ProjectsView.swift in Sources */,
@@ -1171,14 +1175,14 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Lucferbux_Watch_WatchKit_Extension;
 				INFOPLIST_FILE = "Lucferbux-Watch-Info.plist";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.lucferbux.lucferbux-ios";
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios.watchkitapp";
 				PRODUCT_NAME = Lucferbux;
 				SDKROOT = watchos;
@@ -1199,14 +1203,14 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Lucferbux_Watch_WatchKit_Extension;
 				INFOPLIST_FILE = "Lucferbux-Watch-Info.plist";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.lucferbux.lucferbux-ios";
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios.watchkitapp";
 				PRODUCT_NAME = Lucferbux;
 				SDKROOT = watchos;
@@ -1226,7 +1230,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_ENTITLEMENTS = "Lucferbux Watch WatchKit Extension/Lucferbux Watch WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"Lucferbux Watch WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				ENABLE_PREVIEWS = YES;
@@ -1260,7 +1264,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_ENTITLEMENTS = "Lucferbux Watch WatchKit Extension/Lucferbux Watch WatchKit ExtensionRelease.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"Lucferbux Watch WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				ENABLE_PREVIEWS = YES;
@@ -1516,7 +1520,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Lucferbux (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
@@ -1525,6 +1529,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios";
 				PRODUCT_NAME = Lucferbux;
 				SDKROOT = iphoneos;
@@ -1540,7 +1545,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Lucferbux (iOS)Release.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
@@ -1549,6 +1554,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios";
 				PRODUCT_NAME = Lucferbux;
 				SDKROOT = iphoneos;
@@ -1567,7 +1573,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -1577,6 +1583,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios";
 				PRODUCT_NAME = Lucferbux;
 				SDKROOT = macosx;
@@ -1593,7 +1600,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -1603,6 +1610,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios";
 				PRODUCT_NAME = Lucferbux;
 				SDKROOT = macosx;

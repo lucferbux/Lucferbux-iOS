@@ -16,7 +16,10 @@ struct ProjectViewCardContent: View {
                 columns: [GridItem(.adaptive(minimum: 300), spacing: 20)],
                 spacing: 20) {
                     ForEach(projectListViewModel.projectsViewModel) { projectListViewModel in
-                        ProjectCardView(projectViewModel: projectListViewModel)
+                        NavigationLink(destination: iOSWebView(link: projectListViewModel.project.link ?? "https://lucferbux.dev")) {
+                            ProjectCardView(projectViewModel: projectListViewModel)
+                        }
+                        .buttonStyle(.plain)
                     }
             }.padding(.horizontal)
         }

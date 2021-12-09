@@ -11,7 +11,6 @@ struct ProjectCardView: View {
     var projectViewModel: ProjectViewModel
     
     var body: some View {
-        Link(destination: URL(string: projectViewModel.project.link ?? "https://lucferbux.dev")!) {
             VStack(alignment: .leading, spacing: 10) {
                 VStack(alignment: .leading, spacing: 2) {
                     HStack {
@@ -32,7 +31,6 @@ struct ProjectCardView: View {
                     .lineLimit(3)
             }
             .padding()
-        }.buttonStyle(PlainButtonStyle())
             .background(Color("Background Cell"))
             .cornerRadius(20.0)
             .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)

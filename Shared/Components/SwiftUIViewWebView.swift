@@ -214,12 +214,10 @@ public struct WebView: UIViewRepresentable {
     
     public func makeUIView(context: Context) -> WKWebView {
         let preferences = WKPreferences()
-        preferences.javaScriptEnabled = config.javaScriptEnabled
-        
         let configuration = WKWebViewConfiguration()
         configuration.allowsInlineMediaPlayback = config.allowsInlineMediaPlayback
-        configuration.mediaPlaybackRequiresUserAction = config.mediaPlaybackRequiresUserAction
         configuration.preferences = preferences
+        configuration.defaultWebpagePreferences.allowsContentJavaScript = config.javaScriptEnabled
         
         let webView = WKWebView(frame: CGRect.zero, configuration: configuration)
         webView.navigationDelegate = context.coordinator

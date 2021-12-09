@@ -31,20 +31,12 @@ struct MacWebView: View {
             }
         }.toolbar() {
             Button(action: {
-                print(link)
-                print("action....")
                 if let url = URL(string: link) {
                     NSWorkspace.shared.open(url)
                 }
             }) {
                 Image(systemName: "safari")
             }
-        }
-    }
-    
-    func openWebView(link: String) {
-        if let url = URL(string: link) {
-            NSWorkspace.shared.open(url)
         }
     }
 }

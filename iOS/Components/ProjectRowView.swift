@@ -12,7 +12,6 @@ struct ProjectRowView: View {
     var projectViewModel: ProjectViewModel
     
     var body: some View {
-        Link(destination: URL(string: projectViewModel.project.link ?? "https://lucferbux.dev")!) {
             VStack(alignment: .leading, spacing: 10) {
                 VStack(alignment: .leading, spacing: 2) {
                     HStack {
@@ -32,8 +31,6 @@ struct ProjectRowView: View {
                     .font(.body)
             }
             .padding(.vertical, 8)
-        }.buttonStyle(PlainButtonStyle())
-          
     }
 }
 

@@ -12,7 +12,10 @@ struct ProjectViewContent: View {
     
     var body: some View {
             List(projectListViewModel.projectsViewModel) { projectListViewModel in
-                ProjectRowView(projectViewModel: projectListViewModel)
+                NavigationLink(destination: iOSWebView(link: projectListViewModel.project.link ?? "https://lucferbux.dev")) {
+                    ProjectRowView(projectViewModel: projectListViewModel)
+                }
+                .buttonStyle(.plain)
             }
     }
 }

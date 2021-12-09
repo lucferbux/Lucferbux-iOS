@@ -58,6 +58,6 @@ struct NewsViewDetailContent: View {
 struct NewsViewDetailContent_Previews: PreviewProvider {
     static var previews: some View {
         let news = newsListMock[0]
-        NewsViewDetailContent(newsViewModel: NewsViewModel(news: news)).previewLayout(.fixed(width: 1200, height: 2000))
+        NewsViewDetailContent(newsViewModel: NewsViewModel(news: news))
     }
 }

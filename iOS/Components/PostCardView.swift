@@ -12,7 +12,6 @@ struct PostCardView: View {
     @Environment(\.colorScheme) var colorScheme
     
     var body: some View {
-        Link(destination: URL(string: postViewModel.post.link ?? "https://lucferbux.dev")!) {
             ZStack {
                 GeometryReader{geo in
                     AsyncImageCustom(
@@ -44,7 +43,6 @@ struct PostCardView: View {
                         
                 }.padding(10)
             }.aspectRatio(1.74, contentMode: .fit)
-        }.buttonStyle(PlainButtonStyle())
             .background(Color("Background 2"))
             .cornerRadius(20.0)
             .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)

@@ -13,7 +13,10 @@ struct PostViewContent: View {
     var body: some View {
         ScrollView{
             ForEach(postListViewModel.postViewModel) { postViewModel in
-                PostViewRow(postViewModel: postViewModel)
+                NavigationLink(destination: iOSWebView(link: postViewModel.post.link ?? "https://lucferbux.dev")) {
+                    PostViewRow(postViewModel: postViewModel)
+                }
+                .buttonStyle(.plain)
             }
         }
             

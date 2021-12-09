@@ -43,10 +43,12 @@ struct Sidebar: View {
         }
     }
     
+    #if os(macOS)
     private func toggleSidebar() {
         NSApp.keyWindow?.firstResponder?
             .tryToPerform(#selector(NSSplitViewController.toggleSidebar(_:)), with: nil)
     }
+    #endif
     
     var sidebar: some View {
         List(selection: $selection) {

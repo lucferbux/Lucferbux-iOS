@@ -16,7 +16,10 @@ struct PostViewCardContent: View {
                 columns: [GridItem(.adaptive(minimum: 300), spacing: 20)],
                 spacing: 20) {
                     ForEach(postListViewModel.postViewModel) { postViewModel in
-                        PostCardView(postViewModel: postViewModel)
+                        NavigationLink(destination: iOSWebView(link: postViewModel.post.link ?? "https://lucferbux.dev")) {
+                            PostCardView(postViewModel: postViewModel)
+                        }
+                        .buttonStyle(.plain)
                     }
             }.padding(.horizontal)
         }
