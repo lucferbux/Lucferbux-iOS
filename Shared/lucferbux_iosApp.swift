@@ -8,6 +8,8 @@
 import SwiftUI
 #if !os(watchOS)
     import Firebase
+#else
+    import ClockKit
 #endif
 
 
@@ -18,11 +20,21 @@ struct lucferbux_iosApp: App {
         #if !os(watchOS)
             FirebaseApp.configure()
         #endif
+        
     }
     
     var body: some Scene {
         WindowGroup {
             ContentView()
+            #if os(watchOS)
+            .onAppear {
+                let server = CLKComplicationServer.sharedInstance()
+                server.activeComplications?.forEach { complication in
+                  server.reloadTimeline(for: complication)
+                }
+            }
+            #endif
         }
+        
     }
 }

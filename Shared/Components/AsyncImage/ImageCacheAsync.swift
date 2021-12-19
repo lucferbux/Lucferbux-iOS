@@ -6,18 +6,18 @@
 //  Copyright © 2020 Vadym Bulavin. All rights reserved.
 //
 
-#if os(iOS)
+#if os(iOS) || os(watchOS)
 import UIKit
 #else
 import Cocoa
 #endif
 
 
-protocol ImageCache {
+protocol ImageCacheAsync {
     subscript(_ url: URL) -> UIImage? { get set }
 }
 
-struct TemporaryImageCache: ImageCache {
+struct TemporaryImageCache: ImageCacheAsync {
     private let cache: NSCache<NSURL, UIImage> = {
         let cache = NSCache<NSURL, UIImage>()
         cache.countLimit = 100 // 100 items

@@ -13,7 +13,7 @@ struct AsyncImageCustom<Placeholder: View>: View {
     private let placeholder: Placeholder
     private let image: (UIImage) -> Image
     
-    #if os(iOS)
+    #if os(iOS) || os(watchOS)
     init(
         url: URL,
         @ViewBuilder placeholder: () -> Placeholder,

@@ -22,12 +22,25 @@
 		1F29A61D2762369B003AB797 /* ProjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A61C2762369B003AB797 /* ProjectListView.swift */; };
 		1F29A61F27623805003AB797 /* ProjectViewMacContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A61E27623805003AB797 /* ProjectViewMacContent.swift */; };
 		1F29A6232762AC8A003AB797 /* iOSWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A6222762AC8A003AB797 /* iOSWebView.swift */; };
+		1F3E348B2763BB1700EA0369 /* NewsWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3E348A2763BB1700EA0369 /* NewsWatch.swift */; };
+		1F3E348D2763BB2200EA0369 /* ProjectWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3E348C2763BB2200EA0369 /* ProjectWatch.swift */; };
+		1F3E348F2763BB3000EA0369 /* PostWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3E348E2763BB3000EA0369 /* PostWatch.swift */; };
+		1F3E34902763BE5B00EA0369 /* AsyncImageCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA985C2705D305003BFA46 /* AsyncImageCustom.swift */; };
+		1F3E34912763BE5B00EA0369 /* ImageCacheAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA985E2705D305003BFA46 /* ImageCacheAsync.swift */; };
+		1F3E34922763BE5B00EA0369 /* EnvironmentValues+ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA985D2705D305003BFA46 /* EnvironmentValues+ImageCache.swift */; };
+		1F3E34942763BE5B00EA0369 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA985B2705D305003BFA46 /* ImageLoader.swift */; };
+		1F3E34972763BEFF00EA0369 /* NewsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3E34962763BEFF00EA0369 /* NewsCard.swift */; };
+		1F3E34992763C03900EA0369 /* NewsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3E34982763C03900EA0369 /* NewsDetail.swift */; };
+		1FF08AE727674CCB004EE9EF /* ComplicationViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF08AE627674CCB004EE9EF /* ComplicationViews.swift */; };
+		1FF08AEA2767595C004EE9EF /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF08AE82767595C004EE9EF /* UIColor+Hex.swift */; };
+		1FF08AEB2767595C004EE9EF /* UIImage+Lozenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF08AE92767595C004EE9EF /* UIImage+Lozenge.swift */; };
+		1FF08AED27675AD2004EE9EF /* NewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF08AEC27675AD2004EE9EF /* NewsData.swift */; };
+		1FF08AEE27676690004EE9EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98CDFC426B7F45700722C1B /* Assets.xcassets */; };
+		1FF08AEF27676690004EE9EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98CDFC426B7F45700722C1B /* Assets.xcassets */; };
 		E9170DF626B847D800F27BE9 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E9170DF526B847D800F27BE9 /* FirebaseFirestore */; };
 		E9170E0426B847D800F27BE9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E9170E0326B847D800F27BE9 /* FirebaseAuth */; };
 		E91F225C26FFC45000543354 /* Lucferbux Watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E91F225B26FFC45000543354 /* Lucferbux Watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E91F226326FFC45100543354 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F226226FFC45100543354 /* ContentView.swift */; };
-		E91F226526FFC45100543354 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F226426FFC45100543354 /* NotificationController.swift */; };
-		E91F226726FFC45100543354 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F226626FFC45100543354 /* NotificationView.swift */; };
 		E91F226926FFC45100543354 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F226826FFC45100543354 /* ComplicationController.swift */; };
 		E91F226E26FFC45100543354 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91F226D26FFC45100543354 /* Preview Assets.xcassets */; };
 		E91F227A26FFC45200543354 /* Lucferbux_WatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F227926FFC45200543354 /* Lucferbux_WatchTests.swift */; };
@@ -64,7 +77,6 @@
 		E9337963270E28A800C25D88 /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9337961270E28A800C25D88 /* PostCardView.swift */; };
 		E9337965270E2D0C00C25D88 /* PostViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9337964270E2D0C00C25D88 /* PostViewContent.swift */; };
 		E9337968270E2D1F00C25D88 /* PostViewCardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9337967270E2D1F00C25D88 /* PostViewCardContent.swift */; };
-		E9337969270E2D1F00C25D88 /* PostViewCardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9337967270E2D1F00C25D88 /* PostViewCardContent.swift */; };
 		E940DEC727113CFD00B62678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98CDFC426B7F45700722C1B /* Assets.xcassets */; };
 		E940DEC827113D0100B62678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98CDFC426B7F45700722C1B /* Assets.xcassets */; };
 		E94417B126F7887D006CE5D4 /* NewsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94417B026F7887D006CE5D4 /* NewsCardView.swift */; };
@@ -86,8 +98,6 @@
 		E98CDFE926B7F45700722C1B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98CDFE826B7F45700722C1B /* Tests_macOS.swift */; };
 		E98CDFEB26B7F45700722C1B /* lucferbux_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98CDFC226B7F45600722C1B /* lucferbux_iosApp.swift */; };
 		E98CDFEC26B7F45700722C1B /* lucferbux_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98CDFC226B7F45600722C1B /* lucferbux_iosApp.swift */; };
-		E98CDFEF26B7F45700722C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98CDFC426B7F45700722C1B /* Assets.xcassets */; };
-		E98CDFF026B7F45700722C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98CDFC426B7F45700722C1B /* Assets.xcassets */; };
 		E98D899327049314003B60AF /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D899227049314003B60AF /* NewsView.swift */; };
 		E98D899527049326003B60AF /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D899427049326003B60AF /* ProjectsView.swift */; };
 		E98D899727049331003B60AF /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D899627049331003B60AF /* PostsView.swift */; };
@@ -119,8 +129,8 @@
 		E9AA98622705D305003BFA46 /* AsyncImageCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA985C2705D305003BFA46 /* AsyncImageCustom.swift */; };
 		E9AA98632705D305003BFA46 /* EnvironmentValues+ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA985D2705D305003BFA46 /* EnvironmentValues+ImageCache.swift */; };
 		E9AA98642705D305003BFA46 /* EnvironmentValues+ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA985D2705D305003BFA46 /* EnvironmentValues+ImageCache.swift */; };
-		E9AA98652705D305003BFA46 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA985E2705D305003BFA46 /* ImageCache.swift */; };
-		E9AA98662705D305003BFA46 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA985E2705D305003BFA46 /* ImageCache.swift */; };
+		E9AA98652705D305003BFA46 /* ImageCacheAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA985E2705D305003BFA46 /* ImageCacheAsync.swift */; };
+		E9AA98662705D305003BFA46 /* ImageCacheAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA985E2705D305003BFA46 /* ImageCacheAsync.swift */; };
 		E9AA98692705D9DE003BFA46 /* NSImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA98672705D9DE003BFA46 /* NSImageExtension.swift */; };
 		E9AA986E2705DA56003BFA46 /* SectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF782127049C63003BD36B /* SectionTitle.swift */; };
 		E9AA98702705DA56003BFA46 /* DateTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF782427049D3D003BD36B /* DateTitle.swift */; };
@@ -218,11 +228,18 @@
 		1F29A61C2762369B003AB797 /* ProjectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListView.swift; sourceTree = "<group>"; };
 		1F29A61E27623805003AB797 /* ProjectViewMacContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewMacContent.swift; sourceTree = "<group>"; };
 		1F29A6222762AC8A003AB797 /* iOSWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSWebView.swift; sourceTree = "<group>"; };
+		1F3E348A2763BB1700EA0369 /* NewsWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsWatch.swift; sourceTree = "<group>"; };
+		1F3E348C2763BB2200EA0369 /* ProjectWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectWatch.swift; sourceTree = "<group>"; };
+		1F3E348E2763BB3000EA0369 /* PostWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostWatch.swift; sourceTree = "<group>"; };
+		1F3E34962763BEFF00EA0369 /* NewsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCard.swift; sourceTree = "<group>"; };
+		1F3E34982763C03900EA0369 /* NewsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetail.swift; sourceTree = "<group>"; };
+		1FF08AE627674CCB004EE9EF /* ComplicationViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationViews.swift; sourceTree = "<group>"; };
+		1FF08AE82767595C004EE9EF /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		1FF08AE92767595C004EE9EF /* UIImage+Lozenge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Lozenge.swift"; sourceTree = "<group>"; };
+		1FF08AEC27675AD2004EE9EF /* NewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
 		E91F225326FFC44E00543354 /* Lucferbux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lucferbux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91F225B26FFC45000543354 /* Lucferbux Watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Lucferbux Watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91F226226FFC45100543354 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E91F226426FFC45100543354 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		E91F226626FFC45100543354 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		E91F226826FFC45100543354 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		E91F226D26FFC45100543354 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E91F226F26FFC45100543354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -294,7 +311,7 @@
 		E9AA985B2705D305003BFA46 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		E9AA985C2705D305003BFA46 /* AsyncImageCustom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageCustom.swift; sourceTree = "<group>"; };
 		E9AA985D2705D305003BFA46 /* EnvironmentValues+ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+ImageCache.swift"; sourceTree = "<group>"; };
-		E9AA985E2705D305003BFA46 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		E9AA985E2705D305003BFA46 /* ImageCacheAsync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCacheAsync.swift; sourceTree = "<group>"; };
 		E9AA98672705D9DE003BFA46 /* NSImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImageExtension.swift; sourceTree = "<group>"; };
 		E9AF782127049C63003BD36B /* SectionTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitle.swift; sourceTree = "<group>"; };
 		E9AF782427049D3D003BD36B /* DateTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTitle.swift; sourceTree = "<group>"; };
@@ -375,6 +392,36 @@
 			path = LottieAnimations;
 			sourceTree = "<group>";
 		};
+		1F3E34892763BAF900EA0369 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F3E348A2763BB1700EA0369 /* NewsWatch.swift */,
+				1F3E348C2763BB2200EA0369 /* ProjectWatch.swift */,
+				1F3E348E2763BB3000EA0369 /* PostWatch.swift */,
+				1FF08AEC27675AD2004EE9EF /* NewsData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F3E34952763BEDC00EA0369 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				1F3E34962763BEFF00EA0369 /* NewsCard.swift */,
+				1F3E34982763C03900EA0369 /* NewsDetail.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		1FF08AE12767473D004EE9EF /* Complication */ = {
+			isa = PBXGroup;
+			children = (
+				1FF08AE82767595C004EE9EF /* UIColor+Hex.swift */,
+				1FF08AE92767595C004EE9EF /* UIImage+Lozenge.swift */,
+				1FF08AE627674CCB004EE9EF /* ComplicationViews.swift */,
+			);
+			path = Complication;
+			sourceTree = "<group>";
+		};
 		E91F225426FFC44E00543354 /* Lucferbux Watch */ = {
 			isa = PBXGroup;
 			children = (
@@ -385,11 +432,12 @@
 		E91F225F26FFC45000543354 /* Lucferbux Watch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				1FF08AE12767473D004EE9EF /* Complication */,
+				1F3E34952763BEDC00EA0369 /* Component */,
+				1F3E34892763BAF900EA0369 /* Model */,
 				E94450A4271D5FE400FE8020 /* Lucferbux Watch WatchKit Extension.entitlements */,
 				E94450A3271D5FDA00FE8020 /* Lucferbux Watch WatchKit ExtensionRelease.entitlements */,
 				E91F226226FFC45100543354 /* ContentView.swift */,
-				E91F226426FFC45100543354 /* NotificationController.swift */,
-				E91F226626FFC45100543354 /* NotificationView.swift */,
 				E91F226826FFC45100543354 /* ComplicationController.swift */,
 				E91F226F26FFC45100543354 /* Info.plist */,
 				E91F227026FFC45100543354 /* PushNotificationPayload.apns */,
@@ -624,7 +672,7 @@
 			children = (
 				E9AA985C2705D305003BFA46 /* AsyncImageCustom.swift */,
 				E9AA985D2705D305003BFA46 /* EnvironmentValues+ImageCache.swift */,
-				E9AA985E2705D305003BFA46 /* ImageCache.swift */,
+				E9AA985E2705D305003BFA46 /* ImageCacheAsync.swift */,
 				E9AA985B2705D305003BFA46 /* ImageLoader.swift */,
 				E9AA98672705D9DE003BFA46 /* NSImageExtension.swift */,
 			);
@@ -941,8 +989,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E98CDFEF26B7F45700722C1B /* Assets.xcassets in Resources */,
 				E91FE24927048CE000F8F219 /* GoogleService-Info.plist in Resources */,
+				1FF08AEE27676690004EE9EF /* Assets.xcassets in Resources */,
 				1F29A61927622638003AB797 /* Loading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -951,8 +999,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E98CDFF026B7F45700722C1B /* Assets.xcassets in Resources */,
 				E91FE24A27048CE500F8F219 /* GoogleService-Info.plist in Resources */,
+				1FF08AEF27676690004EE9EF /* Assets.xcassets in Resources */,
 				1F29A60E27622265003AB797 /* Loading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -978,11 +1026,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E91F226526FFC45100543354 /* NotificationController.swift in Sources */,
+				1FF08AED27675AD2004EE9EF /* NewsData.swift in Sources */,
+				1F3E348D2763BB2200EA0369 /* ProjectWatch.swift in Sources */,
 				E91F229826FFC71400543354 /* lucferbux_iosApp.swift in Sources */,
 				E91F226326FFC45100543354 /* ContentView.swift in Sources */,
+				1FF08AE727674CCB004EE9EF /* ComplicationViews.swift in Sources */,
 				E91F226926FFC45100543354 /* ComplicationController.swift in Sources */,
-				E91F226726FFC45100543354 /* NotificationView.swift in Sources */,
+				1FF08AEB2767595C004EE9EF /* UIImage+Lozenge.swift in Sources */,
+				1F3E348B2763BB1700EA0369 /* NewsWatch.swift in Sources */,
+				1F3E34972763BEFF00EA0369 /* NewsCard.swift in Sources */,
+				1FF08AEA2767595C004EE9EF /* UIColor+Hex.swift in Sources */,
+				1F3E348F2763BB3000EA0369 /* PostWatch.swift in Sources */,
+				1F3E34902763BE5B00EA0369 /* AsyncImageCustom.swift in Sources */,
+				1F3E34922763BE5B00EA0369 /* EnvironmentValues+ImageCache.swift in Sources */,
+				1F3E34912763BE5B00EA0369 /* ImageCacheAsync.swift in Sources */,
+				1F3E34942763BE5B00EA0369 /* ImageLoader.swift in Sources */,
+				1F3E34992763C03900EA0369 /* NewsDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1036,7 +1095,7 @@
 				E933795F270E252A00C25D88 /* PostViewRow.swift in Sources */,
 				E96B20312711119D001D677E /* Link.swift in Sources */,
 				E91FE25127048FC200F8F219 /* PostsView.swift in Sources */,
-				E9AA98652705D305003BFA46 /* ImageCache.swift in Sources */,
+				E9AA98652705D305003BFA46 /* ImageCacheAsync.swift in Sources */,
 				E9AF782527049D3D003BD36B /* DateTitle.swift in Sources */,
 				E91FE2552704921A00F8F219 /* Sidebar.swift in Sources */,
 				E9337968270E2D1F00C25D88 /* PostViewCardContent.swift in Sources */,
@@ -1091,12 +1150,11 @@
 				E9AA98692705D9DE003BFA46 /* NSImageExtension.swift in Sources */,
 				1F29A61B27623063003AB797 /* NavigationAction.swift in Sources */,
 				1F29A60827614E95003AB797 /* MacWebView.swift in Sources */,
-				E9AA98662705D305003BFA46 /* ImageCache.swift in Sources */,
+				E9AA98662705D305003BFA46 /* ImageCacheAsync.swift in Sources */,
 				E9BEB1542707180A00766C77 /* ProjectRowViewMac.swift in Sources */,
 				E9337941270DFB8C00C25D88 /* Post.swift in Sources */,
 				E9992DB82700DBC3002066CB /* NewsRepository.swift in Sources */,
 				E9337947270E147C00C25D88 /* PostsRepository.swift in Sources */,
-				E9337969270E2D1F00C25D88 /* PostViewCardContent.swift in Sources */,
 				E98D89992704933D003B60AF /* AboutMeView.swift in Sources */,
 				1F29A61727622501003AB797 /* LottieViewMac.swift in Sources */,
 				E9AA986E2705DA56003BFA46 /* SectionTitle.swift in Sources */,
@@ -1172,17 +1230,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Lucferbux_Watch_WatchKit_Extension;
 				INFOPLIST_FILE = "Lucferbux-Watch-Info.plist";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.lucferbux.lucferbux-ios";
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios.watchkitapp";
 				PRODUCT_NAME = Lucferbux;
 				SDKROOT = watchos;
@@ -1200,17 +1258,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Lucferbux_Watch_WatchKit_Extension;
 				INFOPLIST_FILE = "Lucferbux-Watch-Info.plist";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.lucferbux.lucferbux-ios";
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios.watchkitapp";
 				PRODUCT_NAME = Lucferbux;
 				SDKROOT = watchos;
@@ -1230,7 +1288,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_ENTITLEMENTS = "Lucferbux Watch WatchKit Extension/Lucferbux Watch WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"Lucferbux Watch WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				ENABLE_PREVIEWS = YES;
@@ -1245,7 +1303,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -1264,7 +1322,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_ENTITLEMENTS = "Lucferbux Watch WatchKit Extension/Lucferbux Watch WatchKit ExtensionRelease.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"Lucferbux Watch WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				ENABLE_PREVIEWS = YES;
@@ -1279,7 +1337,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -1520,7 +1578,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Lucferbux (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
@@ -1529,7 +1587,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios";
 				PRODUCT_NAME = Lucferbux;
 				SDKROOT = iphoneos;
@@ -1545,7 +1603,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Lucferbux (iOS)Release.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
@@ -1554,7 +1612,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios";
 				PRODUCT_NAME = Lucferbux;
 				SDKROOT = iphoneos;
@@ -1573,7 +1631,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -1583,7 +1641,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios";
 				PRODUCT_NAME = Lucferbux;
 				SDKROOT = macosx;
@@ -1600,7 +1658,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -1610,7 +1668,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios";
 				PRODUCT_NAME = Lucferbux;
 				SDKROOT = macosx;

@@ -13,8 +13,6 @@ struct NewsView: View {
         NewsViewContent()
             .background(Color("Background Body"))
             .navigationTitle("Home")
-        
-            
     }
     
 }

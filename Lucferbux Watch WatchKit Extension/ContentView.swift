@@ -8,12 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    let news = newsList
+    
     var body: some View {
-        VStack {
-            Image("Logo")
-            Text("Welcome to my app")
-                .padding()
+        NavigationView {
+            List(news) { news in
+                
+                NavigationLink(destination: NewsDetail(news: news)) {
+                    NewsCard(news: news)
+                }.buttonStyle(PlainButtonStyle())
+            }.navigationTitle("Latest News")
+            
         }
+            
     }
 }
 

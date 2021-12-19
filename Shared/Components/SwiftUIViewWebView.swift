@@ -54,6 +54,7 @@ public enum WebViewAction: Equatable {
 
 public struct WebViewState: Equatable {
     public internal(set) var isLoading: Bool
+    public internal(set) var isIdle: Bool
     public internal(set) var pageTitle: String?
     public internal(set) var pageHTML: String?
     public internal(set) var error: Error?
@@ -61,6 +62,7 @@ public struct WebViewState: Equatable {
     public internal(set) var canGoForward: Bool
     
     public static let empty = WebViewState(isLoading: false,
+                                           isIdle: true,
                                            pageTitle: nil,
                                            pageHTML: nil,
                                            error: nil,
@@ -69,6 +71,7 @@ public struct WebViewState: Equatable {
     
     public static func == (lhs: WebViewState, rhs: WebViewState) -> Bool {
         lhs.isLoading == rhs.isLoading
+            && lhs.isIdle == rhs.isIdle
             && lhs.pageTitle == rhs.pageTitle
             && lhs.pageHTML == rhs.pageHTML
             && lhs.error?.localizedDescription == rhs.error?.localizedDescription
@@ -86,6 +89,7 @@ public class WebViewCoordinator: NSObject {
     
     func setLoading(_ isLoading: Bool, error: Error? = nil) {
         var newState =  webView.state
+        newState.isIdle = false
         newState.isLoading = isLoading
         if let error = error {
             newState.error = error
@@ -294,11 +298,12 @@ public struct WebView: NSViewRepresentable {
     }
     
     public func makeNSView(context: Context) -> WKWebView {
-        let preferences = WKPreferences()
-        preferences.javaScriptEnabled = config.javaScriptEnabled
+        let preferences = WKWebpagePreferences()
+        preferences.allowsContentJavaScript = config.javaScriptEnabled
         
         let configuration = WKWebViewConfiguration()
-        configuration.preferences = preferences
+        configuration.defaultWebpagePreferences = preferences
+        configuration.defaultWebpagePreferences.allowsContentJavaScript = config.javaScriptEnabled
         
         let webView = WKWebView(frame: CGRect.zero, configuration: configuration)
         webView.navigationDelegate = context.coordinator

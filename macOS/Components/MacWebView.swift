@@ -24,6 +24,7 @@ struct MacWebView: View {
         ZStack {
             WebView(action: $action,
                     state: $state)
+                .opacity(state.isLoading || state.isIdle ? 0 : 1)
             if (state.isLoading) {
                 LottieViewMac(filename: "Loading")
                     .frame(width: 300, height: 300)

@@ -7,7 +7,7 @@
 //
 
 import Combine
-#if os(iOS)
+#if os(iOS) || os(watchOS)
 import UIKit
 #else
 import Cocoa
@@ -19,12 +19,12 @@ class ImageLoader: ObservableObject {
     private(set) var isLoading = false
     
     private let url: URL
-    private var cache: ImageCache?
+    private var cache: ImageCacheAsync?
     private var cancellable: AnyCancellable?
     
     private static let imageProcessingQueue = DispatchQueue(label: "image-processing")
     
-    init(url: URL, cache: ImageCache? = nil) {
+    init(url: URL, cache: ImageCacheAsync? = nil) {
         self.url = url
         self.cache = cache
     }

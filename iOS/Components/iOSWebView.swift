@@ -23,7 +23,7 @@ struct iOSWebView: View {
     var body: some View {
         ZStack {
             WebView(action: $action,
-                    state: $state)
+                    state: $state).opacity(state.isLoading ? 0 : 1)
             if (state.isLoading) {
                 LottieView(filename: "Loading")
                     .frame(width: 300, height: 300)

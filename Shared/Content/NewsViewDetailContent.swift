@@ -51,6 +51,21 @@ struct NewsViewDetailContent: View {
         #if os(iOS)
         .navigationBarTitle("", displayMode: .inline)
         #endif
+        .toolbar() {
+            Button(action: {
+                if let url = URL(string: newsViewModel.news.url!) {
+                    #if os(iOS)
+                    UIApplication.shared.open(url)
+                    #else
+                    NSWorkspace.shared.open(url)
+                    #endif
+                    
+                }
+            }) {
+                Image(systemName: "safari")
+            }
+        }
+        
         
     }
 }
