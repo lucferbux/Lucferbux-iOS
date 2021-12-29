@@ -39,7 +39,7 @@ struct TabBar: View {
             }
             .tabItem {
                 Image(systemName: "person")
-                Text("About Me")
+                Text("About Authors")
             }
             
         }

@@ -7,17 +7,21 @@
 
 import SwiftUI
 
-struct PostListView: View {
+struct PostRowList: View {
     var postViewModel: PostViewModel
     
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
-            HStack(alignment: .center, spacing: 10.0) {
+            HStack(alignment: .top, spacing: 10.0) {
                 AsyncImageCustom(
                     url: URL(string: postViewModel.post.image)!,
                     placeholder: { Image("LoadingPlaceholder").resizable() },
                     image: {
+                        #if os(iOS)
+                        Image(uiImage: $0).resizable()
+                        #else
                         Image(nsImage: $0).resizable()
+                        #endif
                     }
                 )
                  .clipped()
@@ -44,6 +48,6 @@ struct PostListView: View {
 struct PostListView_Previews: PreviewProvider {
     static var previews: some View {
         let post = postListMock[0]
-        PostListView(postViewModel: PostViewModel(post: post))
+        PostRowList(postViewModel: PostViewModel(post: post))
     }
 }

@@ -9,7 +9,15 @@ import Foundation
 import Combine
 
 
-class ProjectViewModel: ObservableObject, Identifiable {
+class ProjectViewModel: ObservableObject, Identifiable, Hashable {
+    
+    static func == (lhs: ProjectViewModel, rhs: ProjectViewModel) -> Bool {
+        return lhs._id == rhs._id
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(_id)
+    }
     
     private let projectRepository = ProjectsRepository()
     @Published var project: Project

@@ -9,7 +9,15 @@ import Foundation
 import Combine
 
 
-class PostViewModel: ObservableObject, Identifiable {
+class PostViewModel: ObservableObject, Identifiable, Hashable {
+    
+    static func == (lhs: PostViewModel, rhs: PostViewModel) -> Bool {
+        return lhs._id == rhs._id
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(_id)
+    }
     
     private let postRepository = PostsRepository()
     @Published var post: Post

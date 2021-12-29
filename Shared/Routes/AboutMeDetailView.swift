@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct AboutMeView: View {
+struct AboutMeDetailView: View {
     var body: some View {
-        AboutMeContent()
-            .navigationTitle("About Me")
+        AboutMeListDetailContent()
+            .navigationTitle("About Authors")
     }
 }
 
-struct AboutMeView_Previews: PreviewProvider {
+struct AboutMeDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        AboutMeView()
+        AboutMeDetailView()
     }
 }

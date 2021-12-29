@@ -35,6 +35,11 @@ struct lucferbux_iosApp: App {
             }
             #endif
         }
+        #if !os(watchOS)
+        .commands {
+            SidebarCommands()
+        }
+        #endif
         
     }
 }

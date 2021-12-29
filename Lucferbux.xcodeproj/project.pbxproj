@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		1F29A5FE276114D0003AB797 /* SwiftUIViewWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A5FD276114D0003AB797 /* SwiftUIViewWebView.swift */; };
 		1F29A5FF276114D0003AB797 /* SwiftUIViewWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A5FD276114D0003AB797 /* SwiftUIViewWebView.swift */; };
-		1F29A60227613DB6003AB797 /* PostViewMacContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A60027613DB6003AB797 /* PostViewMacContent.swift */; };
-		1F29A60427614AF0003AB797 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A60327614AF0003AB797 /* PostListView.swift */; };
+		1F29A60227613DB6003AB797 /* PostListDetailContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A60027613DB6003AB797 /* PostListDetailContent.swift */; };
+		1F29A60427614AF0003AB797 /* PostRowList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A60327614AF0003AB797 /* PostRowList.swift */; };
 		1F29A60827614E95003AB797 /* MacWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A60727614E95003AB797 /* MacWebView.swift */; };
 		1F29A60B2762220C003AB797 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 1F29A60A2762220C003AB797 /* Lottie */; };
 		1F29A60E27622265003AB797 /* Loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F29A60D27622265003AB797 /* Loading.json */; };
@@ -19,8 +19,8 @@
 		1F29A61727622501003AB797 /* LottieViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A61627622501003AB797 /* LottieViewMac.swift */; };
 		1F29A61927622638003AB797 /* Loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F29A60D27622265003AB797 /* Loading.json */; };
 		1F29A61B27623063003AB797 /* NavigationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A61A27623063003AB797 /* NavigationAction.swift */; };
-		1F29A61D2762369B003AB797 /* ProjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A61C2762369B003AB797 /* ProjectListView.swift */; };
-		1F29A61F27623805003AB797 /* ProjectViewMacContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A61E27623805003AB797 /* ProjectViewMacContent.swift */; };
+		1F29A61D2762369B003AB797 /* ProjectRowList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A61C2762369B003AB797 /* ProjectRowList.swift */; };
+		1F29A61F27623805003AB797 /* ProjectListDetailContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A61E27623805003AB797 /* ProjectListDetailContent.swift */; };
 		1F29A6232762AC8A003AB797 /* iOSWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A6222762AC8A003AB797 /* iOSWebView.swift */; };
 		1F3E348B2763BB1700EA0369 /* NewsWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3E348A2763BB1700EA0369 /* NewsWatch.swift */; };
 		1F3E348D2763BB2200EA0369 /* ProjectWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3E348C2763BB2200EA0369 /* ProjectWatch.swift */; };
@@ -31,6 +31,23 @@
 		1F3E34942763BE5B00EA0369 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA985B2705D305003BFA46 /* ImageLoader.swift */; };
 		1F3E34972763BEFF00EA0369 /* NewsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3E34962763BEFF00EA0369 /* NewsCard.swift */; };
 		1F3E34992763C03900EA0369 /* NewsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3E34982763C03900EA0369 /* NewsDetail.swift */; };
+		1F4A8B2A277C76B50091289E /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E952365E270BA3AD00D99CB4 /* NewsListView.swift */; };
+		1F4A8B2C277C776D0091289E /* NewsListDetailContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A8B2B277C776D0091289E /* NewsListDetailContent.swift */; };
+		1F4A8B2D277C776D0091289E /* NewsListDetailContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A8B2B277C776D0091289E /* NewsListDetailContent.swift */; };
+		1F4A8B2F277C77930091289E /* NewsCardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A8B2E277C77930091289E /* NewsCardContent.swift */; };
+		1F4A8B31277C80CF0091289E /* NewsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A8B30277C80CF0091289E /* NewsDetailView.swift */; };
+		1F4A8B33277CBCB70091289E /* AboutMeListDetailContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A8B32277CBCB70091289E /* AboutMeListDetailContent.swift */; };
+		1F4A8B34277CBCB70091289E /* AboutMeListDetailContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A8B32277CBCB70091289E /* AboutMeListDetailContent.swift */; };
+		1F4A8B36277CBEFD0091289E /* NewsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A8B30277C80CF0091289E /* NewsDetailView.swift */; };
+		1F4A8B37277CBF250091289E /* ProjectsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D899427049326003B60AF /* ProjectsDetailView.swift */; };
+		1F4A8B38277CBFD30091289E /* PostRowList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A60327614AF0003AB797 /* PostRowList.swift */; };
+		1F4A8B39277CC0E70091289E /* PostsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D899627049331003B60AF /* PostsDetailView.swift */; };
+		1F4A8B3A277CC0EA0091289E /* AboutMeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D89982704933D003B60AF /* AboutMeDetailView.swift */; };
+		1F4A8B3B277CC1010091289E /* ProjectListDetailContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A61E27623805003AB797 /* ProjectListDetailContent.swift */; };
+		1F4A8B3C277CC1690091289E /* ProjectRowList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A61C2762369B003AB797 /* ProjectRowList.swift */; };
+		1F4A8B3D277CC1AB0091289E /* PostListDetailContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29A60027613DB6003AB797 /* PostListDetailContent.swift */; };
+		1F4A8B3F277D0ADF0091289E /* NewsDetailContentStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A8B3E277D0ADF0091289E /* NewsDetailContentStart.swift */; };
+		1F4A8B40277D0AE00091289E /* NewsDetailContentStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A8B3E277D0ADF0091289E /* NewsDetailContentStart.swift */; };
 		1FF08AE727674CCB004EE9EF /* ComplicationViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF08AE627674CCB004EE9EF /* ComplicationViews.swift */; };
 		1FF08AEA2767595C004EE9EF /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF08AE82767595C004EE9EF /* UIColor+Hex.swift */; };
 		1FF08AEB2767595C004EE9EF /* UIImage+Lozenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF08AE92767595C004EE9EF /* UIImage+Lozenge.swift */; };
@@ -74,19 +91,16 @@
 		E933795C270E20CA00C25D88 /* JobViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E933795B270E20CA00C25D88 /* JobViewRow.swift */; };
 		E933795F270E252A00C25D88 /* PostViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E933795E270E252A00C25D88 /* PostViewRow.swift */; };
 		E9337962270E28A800C25D88 /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9337961270E28A800C25D88 /* PostCardView.swift */; };
-		E9337963270E28A800C25D88 /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9337961270E28A800C25D88 /* PostCardView.swift */; };
-		E9337965270E2D0C00C25D88 /* PostViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9337964270E2D0C00C25D88 /* PostViewContent.swift */; };
-		E9337968270E2D1F00C25D88 /* PostViewCardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9337967270E2D1F00C25D88 /* PostViewCardContent.swift */; };
+		E9337965270E2D0C00C25D88 /* PostListContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9337964270E2D0C00C25D88 /* PostListContent.swift */; };
+		E9337968270E2D1F00C25D88 /* PostCardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9337967270E2D1F00C25D88 /* PostCardContent.swift */; };
 		E940DEC727113CFD00B62678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98CDFC426B7F45700722C1B /* Assets.xcassets */; };
 		E940DEC827113D0100B62678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98CDFC426B7F45700722C1B /* Assets.xcassets */; };
 		E94417B126F7887D006CE5D4 /* NewsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94417B026F7887D006CE5D4 /* NewsCardView.swift */; };
 		E94417B726F78DE5006CE5D4 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94417B626F78DE5006CE5D4 /* TabBar.swift */; };
-		E94417B826F78DE5006CE5D4 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94417B626F78DE5006CE5D4 /* TabBar.swift */; };
 		E94FF4462708EA820021B4B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF78282704E344003BD36B /* ContentView.swift */; };
-		E94FF4482708EE7C0021B4B7 /* NewsViewDetailContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94FF4472708EE7C0021B4B7 /* NewsViewDetailContent.swift */; };
-		E94FF4492708EE7C0021B4B7 /* NewsViewDetailContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94FF4472708EE7C0021B4B7 /* NewsViewDetailContent.swift */; };
+		E94FF4482708EE7C0021B4B7 /* NewsDetailContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94FF4472708EE7C0021B4B7 /* NewsDetailContent.swift */; };
+		E94FF4492708EE7C0021B4B7 /* NewsDetailContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94FF4472708EE7C0021B4B7 /* NewsDetailContent.swift */; };
 		E952365F270BA3AD00D99CB4 /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E952365E270BA3AD00D99CB4 /* NewsListView.swift */; };
-		E9523662270C418500D99CB4 /* NewsViewMacContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9523661270C418500D99CB4 /* NewsViewMacContent.swift */; };
 		E96B20282710F0C7001D677E /* CompactButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B20262710F01B001D677E /* CompactButton.swift */; };
 		E96B202C2710F9AB001D677E /* AboutMeContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B202A2710F8C8001D677E /* AboutMeContent.swift */; };
 		E96B202D2710FFC0001D677E /* JobViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E933795B270E20CA00C25D88 /* JobViewRow.swift */; };
@@ -98,10 +112,9 @@
 		E98CDFE926B7F45700722C1B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98CDFE826B7F45700722C1B /* Tests_macOS.swift */; };
 		E98CDFEB26B7F45700722C1B /* lucferbux_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98CDFC226B7F45600722C1B /* lucferbux_iosApp.swift */; };
 		E98CDFEC26B7F45700722C1B /* lucferbux_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98CDFC226B7F45600722C1B /* lucferbux_iosApp.swift */; };
-		E98D899327049314003B60AF /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D899227049314003B60AF /* NewsView.swift */; };
-		E98D899527049326003B60AF /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D899427049326003B60AF /* ProjectsView.swift */; };
-		E98D899727049331003B60AF /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D899627049331003B60AF /* PostsView.swift */; };
-		E98D89992704933D003B60AF /* AboutMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D89982704933D003B60AF /* AboutMeView.swift */; };
+		E98D899527049326003B60AF /* ProjectsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D899427049326003B60AF /* ProjectsDetailView.swift */; };
+		E98D899727049331003B60AF /* PostsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D899627049331003B60AF /* PostsDetailView.swift */; };
+		E98D89992704933D003B60AF /* AboutMeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D89982704933D003B60AF /* AboutMeDetailView.swift */; };
 		E9992D522700CF10002066CB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E9992D512700CF10002066CB /* FirebaseAuth */; };
 		E9992D5C2700CF10002066CB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E9992D5B2700CF10002066CB /* FirebaseFirestore */; };
 		E9992D702700CF10002066CB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E9992D6F2700CF10002066CB /* FirebaseStorage */; };
@@ -122,7 +135,7 @@
 		E9AA98532705B2FE003BFA46 /* ProjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA98512705B2FE003BFA46 /* ProjectViewModel.swift */; };
 		E9AA98552705B309003BFA46 /* ProjectListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA98542705B309003BFA46 /* ProjectListViewModel.swift */; };
 		E9AA98562705B309003BFA46 /* ProjectListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA98542705B309003BFA46 /* ProjectListViewModel.swift */; };
-		E9AA98582705B585003BFA46 /* ProjectViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA98572705B585003BFA46 /* ProjectViewContent.swift */; };
+		E9AA98582705B585003BFA46 /* ProjectListContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA98572705B585003BFA46 /* ProjectListContent.swift */; };
 		E9AA985F2705D305003BFA46 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA985B2705D305003BFA46 /* ImageLoader.swift */; };
 		E9AA98602705D305003BFA46 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA985B2705D305003BFA46 /* ImageLoader.swift */; };
 		E9AA98612705D305003BFA46 /* AsyncImageCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA985C2705D305003BFA46 /* AsyncImageCustom.swift */; };
@@ -138,12 +151,10 @@
 		E9AF782527049D3D003BD36B /* DateTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF782427049D3D003BD36B /* DateTitle.swift */; };
 		E9AF78292704E344003BD36B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF78282704E344003BD36B /* ContentView.swift */; };
 		E9AF782A2704E74A003BD36B /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FE2542704921A00F8F219 /* Sidebar.swift */; };
-		E9BEB1542707180A00766C77 /* ProjectRowViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BEB1532707180A00766C77 /* ProjectRowViewMac.swift */; };
-		E9BEB1572707312200766C77 /* ProjectViewCardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BEB1562707312200766C77 /* ProjectViewCardContent.swift */; };
+		E9BEB1572707312200766C77 /* ProjectCardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BEB1562707312200766C77 /* ProjectCardContent.swift */; };
 		E9BEB15A2707317300766C77 /* ProjectCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BEB1592707317300766C77 /* ProjectCardView.swift */; };
 		E9D22C192700F46700BEC407 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = E9D22C182700F46700BEC407 /* FirebaseFirestoreSwift-Beta */; };
 		E9D22C1B2700F47100BEC407 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = E9D22C1A2700F47100BEC407 /* FirebaseFirestoreSwift-Beta */; };
-		E9D22C2B270107DC00BEC407 /* NewsViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D22C2A270107DC00BEC407 /* NewsViewContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -218,21 +229,26 @@
 
 /* Begin PBXFileReference section */
 		1F29A5FD276114D0003AB797 /* SwiftUIViewWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewWebView.swift; sourceTree = "<group>"; };
-		1F29A60027613DB6003AB797 /* PostViewMacContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewMacContent.swift; sourceTree = "<group>"; };
-		1F29A60327614AF0003AB797 /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		1F29A60027613DB6003AB797 /* PostListDetailContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListDetailContent.swift; sourceTree = "<group>"; };
+		1F29A60327614AF0003AB797 /* PostRowList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRowList.swift; sourceTree = "<group>"; };
 		1F29A60727614E95003AB797 /* MacWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacWebView.swift; sourceTree = "<group>"; };
 		1F29A60D27622265003AB797 /* Loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loading.json; sourceTree = "<group>"; };
 		1F29A60F2762226D003AB797 /* LottieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		1F29A61627622501003AB797 /* LottieViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewMac.swift; sourceTree = "<group>"; };
 		1F29A61A27623063003AB797 /* NavigationAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationAction.swift; sourceTree = "<group>"; };
-		1F29A61C2762369B003AB797 /* ProjectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListView.swift; sourceTree = "<group>"; };
-		1F29A61E27623805003AB797 /* ProjectViewMacContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewMacContent.swift; sourceTree = "<group>"; };
+		1F29A61C2762369B003AB797 /* ProjectRowList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProjectRowList.swift; path = ../../macOS/Components/ProjectRowList.swift; sourceTree = "<group>"; };
+		1F29A61E27623805003AB797 /* ProjectListDetailContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListDetailContent.swift; sourceTree = "<group>"; };
 		1F29A6222762AC8A003AB797 /* iOSWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSWebView.swift; sourceTree = "<group>"; };
 		1F3E348A2763BB1700EA0369 /* NewsWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsWatch.swift; sourceTree = "<group>"; };
 		1F3E348C2763BB2200EA0369 /* ProjectWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectWatch.swift; sourceTree = "<group>"; };
 		1F3E348E2763BB3000EA0369 /* PostWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostWatch.swift; sourceTree = "<group>"; };
 		1F3E34962763BEFF00EA0369 /* NewsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCard.swift; sourceTree = "<group>"; };
 		1F3E34982763C03900EA0369 /* NewsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetail.swift; sourceTree = "<group>"; };
+		1F4A8B2B277C776D0091289E /* NewsListDetailContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListDetailContent.swift; sourceTree = "<group>"; };
+		1F4A8B2E277C77930091289E /* NewsCardContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCardContent.swift; sourceTree = "<group>"; };
+		1F4A8B30277C80CF0091289E /* NewsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailView.swift; sourceTree = "<group>"; };
+		1F4A8B32277CBCB70091289E /* AboutMeListDetailContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeListDetailContent.swift; sourceTree = "<group>"; };
+		1F4A8B3E277D0ADF0091289E /* NewsDetailContentStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailContentStart.swift; sourceTree = "<group>"; };
 		1FF08AE627674CCB004EE9EF /* ComplicationViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationViews.swift; sourceTree = "<group>"; };
 		1FF08AE82767595C004EE9EF /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		1FF08AE92767595C004EE9EF /* UIImage+Lozenge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Lozenge.swift"; sourceTree = "<group>"; };
@@ -266,8 +282,8 @@
 		E933795B270E20CA00C25D88 /* JobViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobViewRow.swift; sourceTree = "<group>"; };
 		E933795E270E252A00C25D88 /* PostViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewRow.swift; sourceTree = "<group>"; };
 		E9337961270E28A800C25D88 /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
-		E9337964270E2D0C00C25D88 /* PostViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewContent.swift; sourceTree = "<group>"; };
-		E9337967270E2D1F00C25D88 /* PostViewCardContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewCardContent.swift; sourceTree = "<group>"; };
+		E9337964270E2D0C00C25D88 /* PostListContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListContent.swift; sourceTree = "<group>"; };
+		E9337967270E2D1F00C25D88 /* PostCardContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardContent.swift; sourceTree = "<group>"; };
 		E940DECE2711403A00B62678 /* Lucferbux-Watch-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Lucferbux-Watch-Info.plist"; sourceTree = "<group>"; };
 		E94417B026F7887D006CE5D4 /* NewsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCardView.swift; sourceTree = "<group>"; };
 		E94417B626F78DE5006CE5D4 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
@@ -275,9 +291,8 @@
 		E94450A2271CB4AE00FE8020 /* Lucferbux (iOS)Release.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lucferbux (iOS)Release.entitlements"; sourceTree = "<group>"; };
 		E94450A3271D5FDA00FE8020 /* Lucferbux Watch WatchKit ExtensionRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lucferbux Watch WatchKit ExtensionRelease.entitlements"; sourceTree = "<group>"; };
 		E94450A4271D5FE400FE8020 /* Lucferbux Watch WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lucferbux Watch WatchKit Extension.entitlements"; sourceTree = "<group>"; };
-		E94FF4472708EE7C0021B4B7 /* NewsViewDetailContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewDetailContent.swift; sourceTree = "<group>"; };
+		E94FF4472708EE7C0021B4B7 /* NewsDetailContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailContent.swift; sourceTree = "<group>"; };
 		E952365E270BA3AD00D99CB4 /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
-		E9523661270C418500D99CB4 /* NewsViewMacContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewMacContent.swift; sourceTree = "<group>"; };
 		E96B20262710F01B001D677E /* CompactButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactButton.swift; sourceTree = "<group>"; };
 		E96B202A2710F8C8001D677E /* AboutMeContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeContent.swift; sourceTree = "<group>"; };
 		E96B20302711119D001D677E /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
@@ -294,10 +309,9 @@
 		E98CDFE426B7F45700722C1B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E98CDFE826B7F45700722C1B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		E98CDFEA26B7F45700722C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E98D899227049314003B60AF /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
-		E98D899427049326003B60AF /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
-		E98D899627049331003B60AF /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
-		E98D89982704933D003B60AF /* AboutMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeView.swift; sourceTree = "<group>"; };
+		E98D899427049326003B60AF /* ProjectsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsDetailView.swift; sourceTree = "<group>"; };
+		E98D899627049331003B60AF /* PostsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsDetailView.swift; sourceTree = "<group>"; };
+		E98D89982704933D003B60AF /* AboutMeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeDetailView.swift; sourceTree = "<group>"; };
 		E9992DA72700DB42002066CB /* NewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
 		E9992DAE2700DBB4002066CB /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		E9992DB52700DBC3002066CB /* NewsRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsRepository.swift; sourceTree = "<group>"; };
@@ -307,7 +321,7 @@
 		E9AA984E2705B2C0003BFA46 /* ProjectRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectRowView.swift; sourceTree = "<group>"; };
 		E9AA98512705B2FE003BFA46 /* ProjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewModel.swift; sourceTree = "<group>"; };
 		E9AA98542705B309003BFA46 /* ProjectListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListViewModel.swift; sourceTree = "<group>"; };
-		E9AA98572705B585003BFA46 /* ProjectViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewContent.swift; sourceTree = "<group>"; };
+		E9AA98572705B585003BFA46 /* ProjectListContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListContent.swift; sourceTree = "<group>"; };
 		E9AA985B2705D305003BFA46 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		E9AA985C2705D305003BFA46 /* AsyncImageCustom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageCustom.swift; sourceTree = "<group>"; };
 		E9AA985D2705D305003BFA46 /* EnvironmentValues+ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+ImageCache.swift"; sourceTree = "<group>"; };
@@ -316,10 +330,8 @@
 		E9AF782127049C63003BD36B /* SectionTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitle.swift; sourceTree = "<group>"; };
 		E9AF782427049D3D003BD36B /* DateTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTitle.swift; sourceTree = "<group>"; };
 		E9AF78282704E344003BD36B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E9BEB1532707180A00766C77 /* ProjectRowViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectRowViewMac.swift; sourceTree = "<group>"; };
-		E9BEB1562707312200766C77 /* ProjectViewCardContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewCardContent.swift; sourceTree = "<group>"; };
+		E9BEB1562707312200766C77 /* ProjectCardContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCardContent.swift; sourceTree = "<group>"; };
 		E9BEB1592707317300766C77 /* ProjectCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCardView.swift; sourceTree = "<group>"; };
-		E9D22C2A270107DC00BEC407 /* NewsViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -410,6 +422,17 @@
 				1F3E34982763C03900EA0369 /* NewsDetail.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		1F4A8B35277CBEDB0091289E /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				1F4A8B30277C80CF0091289E /* NewsDetailView.swift */,
+				E98D899427049326003B60AF /* ProjectsDetailView.swift */,
+				E98D89982704933D003B60AF /* AboutMeDetailView.swift */,
+				E98D899627049331003B60AF /* PostsDetailView.swift */,
+			);
+			path = Routes;
 			sourceTree = "<group>";
 		};
 		1FF08AE12767473D004EE9EF /* Complication */ = {
@@ -520,11 +543,7 @@
 		E9523660270C40A500D99CB4 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				E952365E270BA3AD00D99CB4 /* NewsListView.swift */,
-				E9BEB1532707180A00766C77 /* ProjectRowViewMac.swift */,
-				1F29A60327614AF0003AB797 /* PostListView.swift */,
 				1F29A60727614E95003AB797 /* MacWebView.swift */,
-				1F29A61C2762369B003AB797 /* ProjectListView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -559,6 +578,7 @@
 				E9992DBE2700DBF8002066CB /* Repositories */,
 				E9AF782027049C1C003BD36B /* Components */,
 				E9AF782B2704EA3F003BD36B /* Content */,
+				1F4A8B35277CBEDB0091289E /* Routes */,
 				E98CDFC426B7F45700722C1B /* Assets.xcassets */,
 				E91FE24827048CE000F8F219 /* GoogleService-Info.plist */,
 			);
@@ -599,10 +619,6 @@
 				E98CDFD326B7F45700722C1B /* Info.plist */,
 				E98CDFD426B7F45700722C1B /* macOS.entitlements */,
 				E9523660270C40A500D99CB4 /* Components */,
-				E98D899227049314003B60AF /* NewsView.swift */,
-				E98D899427049326003B60AF /* ProjectsView.swift */,
-				E98D899627049331003B60AF /* PostsView.swift */,
-				E98D89982704933D003B60AF /* AboutMeView.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -687,10 +703,14 @@
 				E9AF782127049C63003BD36B /* SectionTitle.swift */,
 				E9AF782427049D3D003BD36B /* DateTitle.swift */,
 				E96B20262710F01B001D677E /* CompactButton.swift */,
-				E933795B270E20CA00C25D88 /* JobViewRow.swift */,
+				E94417B026F7887D006CE5D4 /* NewsCardView.swift */,
 				1F29A5FD276114D0003AB797 /* SwiftUIViewWebView.swift */,
 				1F29A60F2762226D003AB797 /* LottieView.swift */,
 				1F29A61627622501003AB797 /* LottieViewMac.swift */,
+				E952365E270BA3AD00D99CB4 /* NewsListView.swift */,
+				1F29A61C2762369B003AB797 /* ProjectRowList.swift */,
+				1F29A60327614AF0003AB797 /* PostRowList.swift */,
+				E933795B270E20CA00C25D88 /* JobViewRow.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -698,7 +718,6 @@
 		E9AF78272704E2B0003BD36B /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				E94417B026F7887D006CE5D4 /* NewsCardView.swift */,
 				E9BEB1592707317300766C77 /* ProjectCardView.swift */,
 				E9AA984E2705B2C0003BFA46 /* ProjectRowView.swift */,
 				E9337961270E28A800C25D88 /* PostCardView.swift */,
@@ -711,15 +730,17 @@
 		E9AF782B2704EA3F003BD36B /* Content */ = {
 			isa = PBXGroup;
 			children = (
-				E9D22C2A270107DC00BEC407 /* NewsViewContent.swift */,
-				E9523661270C418500D99CB4 /* NewsViewMacContent.swift */,
-				E94FF4472708EE7C0021B4B7 /* NewsViewDetailContent.swift */,
-				E9AA98572705B585003BFA46 /* ProjectViewContent.swift */,
-				E9BEB1562707312200766C77 /* ProjectViewCardContent.swift */,
-				1F29A61E27623805003AB797 /* ProjectViewMacContent.swift */,
-				E9337964270E2D0C00C25D88 /* PostViewContent.swift */,
-				E9337967270E2D1F00C25D88 /* PostViewCardContent.swift */,
-				1F29A60027613DB6003AB797 /* PostViewMacContent.swift */,
+				1F4A8B2E277C77930091289E /* NewsCardContent.swift */,
+				1F4A8B2B277C776D0091289E /* NewsListDetailContent.swift */,
+				1F4A8B3E277D0ADF0091289E /* NewsDetailContentStart.swift */,
+				E94FF4472708EE7C0021B4B7 /* NewsDetailContent.swift */,
+				E9AA98572705B585003BFA46 /* ProjectListContent.swift */,
+				E9BEB1562707312200766C77 /* ProjectCardContent.swift */,
+				1F29A61E27623805003AB797 /* ProjectListDetailContent.swift */,
+				E9337964270E2D0C00C25D88 /* PostListContent.swift */,
+				E9337967270E2D1F00C25D88 /* PostCardContent.swift */,
+				1F29A60027613DB6003AB797 /* PostListDetailContent.swift */,
+				1F4A8B32277CBCB70091289E /* AboutMeListDetailContent.swift */,
 				E96B202A2710F8C8001D677E /* AboutMeContent.swift */,
 			);
 			path = Content;
@@ -1070,48 +1091,60 @@
 				E98CDFEB26B7F45700722C1B /* lucferbux_iosApp.swift in Sources */,
 				E94417B726F78DE5006CE5D4 /* TabBar.swift in Sources */,
 				E94417B126F7887D006CE5D4 /* NewsCardView.swift in Sources */,
-				E9BEB1572707312200766C77 /* ProjectViewCardContent.swift in Sources */,
-				E94FF4482708EE7C0021B4B7 /* NewsViewDetailContent.swift in Sources */,
+				E9BEB1572707312200766C77 /* ProjectCardContent.swift in Sources */,
+				E94FF4482708EE7C0021B4B7 /* NewsDetailContent.swift in Sources */,
 				E9337959270E19BC00C25D88 /* JobListViewModel.swift in Sources */,
 				E9337950270E198C00C25D88 /* PostViewModel.swift in Sources */,
 				E9337953270E19A000C25D88 /* PostListViewModel.swift in Sources */,
+				1F4A8B2F277C77930091289E /* NewsCardContent.swift in Sources */,
+				1F4A8B31277C80CF0091289E /* NewsDetailView.swift in Sources */,
 				E9AA98612705D305003BFA46 /* AsyncImageCustom.swift in Sources */,
+				1F4A8B2A277C76B50091289E /* NewsListView.swift in Sources */,
 				1F29A61127622290003AB797 /* LottieView.swift in Sources */,
-				E9337965270E2D0C00C25D88 /* PostViewContent.swift in Sources */,
+				E9337965270E2D0C00C25D88 /* PostListContent.swift in Sources */,
 				E9AA98522705B2FE003BFA46 /* ProjectViewModel.swift in Sources */,
+				1F4A8B3C277CC1690091289E /* ProjectRowList.swift in Sources */,
 				E9AF782227049C63003BD36B /* SectionTitle.swift in Sources */,
 				E9337946270E147C00C25D88 /* PostsRepository.swift in Sources */,
 				1F29A6232762AC8A003AB797 /* iOSWebView.swift in Sources */,
+				1F4A8B3F277D0ADF0091289E /* NewsDetailContentStart.swift in Sources */,
 				1F29A5FE276114D0003AB797 /* SwiftUIViewWebView.swift in Sources */,
 				E9337940270DFB8C00C25D88 /* Post.swift in Sources */,
 				E91FE24F27048FB300F8F219 /* ProjectsView.swift in Sources */,
+				1F4A8B3D277CC1AB0091289E /* PostListDetailContent.swift in Sources */,
 				E9337956270E19AB00C25D88 /* JobViewModel.swift in Sources */,
+				1F4A8B2C277C776D0091289E /* NewsListDetailContent.swift in Sources */,
 				E9AF78292704E344003BD36B /* ContentView.swift in Sources */,
 				E9992DC02700DE55002066CB /* NewsViewModel.swift in Sources */,
 				E9992DB22700DBB4002066CB /* News.swift in Sources */,
 				E9BEB15A2707317300766C77 /* ProjectCardView.swift in Sources */,
-				E9AA98582705B585003BFA46 /* ProjectViewContent.swift in Sources */,
+				E9AA98582705B585003BFA46 /* ProjectListContent.swift in Sources */,
 				E9AA984F2705B2C0003BFA46 /* ProjectRowView.swift in Sources */,
 				E933795F270E252A00C25D88 /* PostViewRow.swift in Sources */,
 				E96B20312711119D001D677E /* Link.swift in Sources */,
 				E91FE25127048FC200F8F219 /* PostsView.swift in Sources */,
 				E9AA98652705D305003BFA46 /* ImageCacheAsync.swift in Sources */,
+				1F4A8B38277CBFD30091289E /* PostRowList.swift in Sources */,
 				E9AF782527049D3D003BD36B /* DateTitle.swift in Sources */,
 				E91FE2552704921A00F8F219 /* Sidebar.swift in Sources */,
-				E9337968270E2D1F00C25D88 /* PostViewCardContent.swift in Sources */,
+				E9337968270E2D1F00C25D88 /* PostCardContent.swift in Sources */,
 				E9AA985F2705D305003BFA46 /* ImageLoader.swift in Sources */,
-				E9D22C2B270107DC00BEC407 /* NewsViewContent.swift in Sources */,
 				E9992DB72700DBC3002066CB /* NewsRepository.swift in Sources */,
 				E9AA98552705B309003BFA46 /* ProjectListViewModel.swift in Sources */,
 				E9337949270E149B00C25D88 /* JobsRepository.swift in Sources */,
+				1F4A8B37277CBF250091289E /* ProjectsDetailView.swift in Sources */,
+				1F4A8B3B277CC1010091289E /* ProjectListDetailContent.swift in Sources */,
 				E9337962270E28A800C25D88 /* PostCardView.swift in Sources */,
 				E91FE25327048FDC00F8F219 /* AboutMeView.swift in Sources */,
 				E9992DA82700DB42002066CB /* NewsListViewModel.swift in Sources */,
+				1F4A8B33277CBCB70091289E /* AboutMeListDetailContent.swift in Sources */,
 				E933795C270E20CA00C25D88 /* JobViewRow.swift in Sources */,
 				E9AA98492705AF97003BFA46 /* ProjectsRepository.swift in Sources */,
 				E9337943270DFCD500C25D88 /* Job.swift in Sources */,
 				E96B20282710F0C7001D677E /* CompactButton.swift in Sources */,
 				E9AA984C2705B051003BFA46 /* Project.swift in Sources */,
+				1F4A8B39277CC0E70091289E /* PostsDetailView.swift in Sources */,
+				1F4A8B3A277CC0EA0091289E /* AboutMeDetailView.swift in Sources */,
 				E9AA98632705D305003BFA46 /* EnvironmentValues+ImageCache.swift in Sources */,
 				E96B202C2710F9AB001D677E /* AboutMeContent.swift in Sources */,
 			);
@@ -1124,38 +1157,38 @@
 				E952365F270BA3AD00D99CB4 /* NewsListView.swift in Sources */,
 				E9337957270E19AB00C25D88 /* JobViewModel.swift in Sources */,
 				E9AA98642705D305003BFA46 /* EnvironmentValues+ImageCache.swift in Sources */,
-				E9523662270C418500D99CB4 /* NewsViewMacContent.swift in Sources */,
 				E96B202E2711007E001D677E /* AboutMeContent.swift in Sources */,
 				E9AA984A2705AF97003BFA46 /* ProjectsRepository.swift in Sources */,
-				1F29A61D2762369B003AB797 /* ProjectListView.swift in Sources */,
-				E98D899327049314003B60AF /* NewsView.swift in Sources */,
-				1F29A60427614AF0003AB797 /* PostListView.swift in Sources */,
+				1F29A61D2762369B003AB797 /* ProjectRowList.swift in Sources */,
+				1F29A60427614AF0003AB797 /* PostRowList.swift in Sources */,
 				E98CDFEC26B7F45700722C1B /* lucferbux_iosApp.swift in Sources */,
-				E94417B826F78DE5006CE5D4 /* TabBar.swift in Sources */,
 				E9AA98562705B309003BFA46 /* ProjectListViewModel.swift in Sources */,
+				1F4A8B36277CBEFD0091289E /* NewsDetailView.swift in Sources */,
 				E94FF4462708EA820021B4B7 /* ContentView.swift in Sources */,
 				E9337954270E19A000C25D88 /* PostListViewModel.swift in Sources */,
-				E98D899527049326003B60AF /* ProjectsView.swift in Sources */,
+				E98D899527049326003B60AF /* ProjectsDetailView.swift in Sources */,
 				E96B20322711119D001D677E /* Link.swift in Sources */,
 				E9992DC12700DE55002066CB /* NewsViewModel.swift in Sources */,
 				E9AA98702705DA56003BFA46 /* DateTitle.swift in Sources */,
+				1F4A8B40277D0AE00091289E /* NewsDetailContentStart.swift in Sources */,
 				E9992DB32700DBB4002066CB /* News.swift in Sources */,
 				E9AA98532705B2FE003BFA46 /* ProjectViewModel.swift in Sources */,
-				E94FF4492708EE7C0021B4B7 /* NewsViewDetailContent.swift in Sources */,
-				1F29A61F27623805003AB797 /* ProjectViewMacContent.swift in Sources */,
+				E94FF4492708EE7C0021B4B7 /* NewsDetailContent.swift in Sources */,
+				1F29A61F27623805003AB797 /* ProjectListDetailContent.swift in Sources */,
 				E9AA98602705D305003BFA46 /* ImageLoader.swift in Sources */,
-				E98D899727049331003B60AF /* PostsView.swift in Sources */,
+				1F4A8B2D277C776D0091289E /* NewsListDetailContent.swift in Sources */,
+				E98D899727049331003B60AF /* PostsDetailView.swift in Sources */,
 				E9337951270E198C00C25D88 /* PostViewModel.swift in Sources */,
 				E9AA98622705D305003BFA46 /* AsyncImageCustom.swift in Sources */,
 				E9AA98692705D9DE003BFA46 /* NSImageExtension.swift in Sources */,
 				1F29A61B27623063003AB797 /* NavigationAction.swift in Sources */,
 				1F29A60827614E95003AB797 /* MacWebView.swift in Sources */,
 				E9AA98662705D305003BFA46 /* ImageCacheAsync.swift in Sources */,
-				E9BEB1542707180A00766C77 /* ProjectRowViewMac.swift in Sources */,
 				E9337941270DFB8C00C25D88 /* Post.swift in Sources */,
+				1F4A8B34277CBCB70091289E /* AboutMeListDetailContent.swift in Sources */,
 				E9992DB82700DBC3002066CB /* NewsRepository.swift in Sources */,
 				E9337947270E147C00C25D88 /* PostsRepository.swift in Sources */,
-				E98D89992704933D003B60AF /* AboutMeView.swift in Sources */,
+				E98D89992704933D003B60AF /* AboutMeDetailView.swift in Sources */,
 				1F29A61727622501003AB797 /* LottieViewMac.swift in Sources */,
 				E9AA986E2705DA56003BFA46 /* SectionTitle.swift in Sources */,
 				E9AF782A2704E74A003BD36B /* Sidebar.swift in Sources */,
@@ -1164,10 +1197,9 @@
 				E933794A270E149B00C25D88 /* JobsRepository.swift in Sources */,
 				E9992DA92700DB42002066CB /* NewsListViewModel.swift in Sources */,
 				1F29A5FF276114D0003AB797 /* SwiftUIViewWebView.swift in Sources */,
-				E9337963270E28A800C25D88 /* PostCardView.swift in Sources */,
 				E96B202F2711111A001D677E /* CompactButton.swift in Sources */,
 				E933795A270E19BC00C25D88 /* JobListViewModel.swift in Sources */,
-				1F29A60227613DB6003AB797 /* PostViewMacContent.swift in Sources */,
+				1F29A60227613DB6003AB797 /* PostListDetailContent.swift in Sources */,
 				E9AA984D2705B051003BFA46 /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1233,14 +1265,14 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Lucferbux_Watch_WatchKit_Extension;
 				INFOPLIST_FILE = "Lucferbux-Watch-Info.plist";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.lucferbux.lucferbux-ios";
-				MARKETING_VERSION = 1.6;
+				MARKETING_VERSION = 1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios.watchkitapp";
 				PRODUCT_NAME = Lucferbux;
 				SDKROOT = watchos;
@@ -1261,14 +1293,14 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Lucferbux_Watch_WatchKit_Extension;
 				INFOPLIST_FILE = "Lucferbux-Watch-Info.plist";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.lucferbux.lucferbux-ios";
-				MARKETING_VERSION = 1.6;
+				MARKETING_VERSION = 1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios.watchkitapp";
 				PRODUCT_NAME = Lucferbux;
 				SDKROOT = watchos;
@@ -1288,7 +1320,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_ENTITLEMENTS = "Lucferbux Watch WatchKit Extension/Lucferbux Watch WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_ASSET_PATHS = "\"Lucferbux Watch WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				ENABLE_PREVIEWS = YES;
@@ -1303,7 +1335,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.6;
+				MARKETING_VERSION = 1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -1322,7 +1354,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_ENTITLEMENTS = "Lucferbux Watch WatchKit Extension/Lucferbux Watch WatchKit ExtensionRelease.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_ASSET_PATHS = "\"Lucferbux Watch WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				ENABLE_PREVIEWS = YES;
@@ -1337,7 +1369,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.6;
+				MARKETING_VERSION = 1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -1578,7 +1610,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Lucferbux (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
@@ -1587,7 +1619,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.6;
+				MARKETING_VERSION = 1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios";
 				PRODUCT_NAME = Lucferbux;
 				SDKROOT = iphoneos;
@@ -1603,7 +1635,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Lucferbux (iOS)Release.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
@@ -1612,7 +1644,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.6;
+				MARKETING_VERSION = 1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios";
 				PRODUCT_NAME = Lucferbux;
 				SDKROOT = iphoneos;
@@ -1631,7 +1663,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -1641,7 +1673,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.5;
+				MARKETING_VERSION = 1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios";
 				PRODUCT_NAME = Lucferbux;
 				SDKROOT = macosx;
@@ -1658,7 +1690,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -1668,7 +1700,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.5;
+				MARKETING_VERSION = 1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucferbux.lucferbux-ios";
 				PRODUCT_NAME = Lucferbux;
 				SDKROOT = macosx;

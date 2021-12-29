@@ -7,10 +7,9 @@
 
 import SwiftUI
 
-struct NewsView: View {
-    
+struct NewsView: View {    
     var body: some View {
-        NewsViewContent()
+        NewsCardContent()
             .background(Color("Background Body"))
             .navigationTitle("Home")
     }

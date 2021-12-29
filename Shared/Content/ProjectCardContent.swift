@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ProjectViewCardContent: View {
+struct ProjectCardContent: View {
     @ObservedObject var projectListViewModel = ProjectListViewModel()
     
     var body: some View {
@@ -28,7 +28,7 @@ struct ProjectViewCardContent: View {
 
 struct ProjectViewCardContent_Previews: PreviewProvider {
     static var previews: some View {
-        ProjectViewCardContent()
+        ProjectCardContent()
     }
 }
 

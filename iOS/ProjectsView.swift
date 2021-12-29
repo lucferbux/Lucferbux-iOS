@@ -8,19 +8,11 @@
 import SwiftUI
 
 struct ProjectsView: View {
-    @Environment(\.horizontalSizeClass) var horizontalSizeClass: UserInterfaceSizeClass?
-    
     
     var body: some View {
-        if horizontalSizeClass == .compact {
-            ProjectViewContent()
+            ProjectListContent()
                 .background(Color("Background Body"))
                 .navigationTitle("Projects")
-        } else {
-            ProjectViewCardContent()
-                .background(Color("Background Body"))
-            .navigationTitle("Projects")
-        }
     }
 }
 

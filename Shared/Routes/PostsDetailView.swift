@@ -7,18 +7,18 @@
 
 import SwiftUI
 
-struct PostsView: View {
+struct PostsDetailView: View {
     
 
     var body: some View {
-        PostViewMacContent()
+        PostListDetailContent()
             .navigationTitle("Posts")
     }
     
 }
 
-struct PostsView_Previews: PreviewProvider {
+struct PostsDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        PostsView()
+        PostsDetailView()
     }
 }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ProjectViewContent: View {
+struct ProjectListContent: View {
     @ObservedObject var projectListViewModel = ProjectListViewModel()
     @State private var searchText = ""
     
@@ -32,6 +32,6 @@ struct ProjectViewContent: View {
 
 struct ProjectViewContent_Previews: PreviewProvider {
     static var previews: some View {
-        ProjectViewContent()
+        ProjectListContent()
     }
 }

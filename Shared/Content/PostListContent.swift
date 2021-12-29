@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PostViewContent: View {
+struct PostListContent: View {
     @ObservedObject var postListViewModel = PostListViewModel()
     
     var body: some View {
@@ -26,6 +26,6 @@ struct PostViewContent: View {
 
 struct PostViewContent_Previews: PreviewProvider {
     static var previews: some View {
-        PostViewContent()
+        PostListContent()
     }
 }

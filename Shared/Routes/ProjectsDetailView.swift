@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct ProjectsView: View {
+struct ProjectsDetailView: View {
     var body: some View {
-        ProjectViewMacContent()
+        ProjectListDetailContent()
             .navigationTitle("Projects")
     }
 }
 
-struct ProjectsView_Previews: PreviewProvider {
+struct ProjectsDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ProjectsView()
+        ProjectsDetailView()
     }
 }

@@ -10,7 +10,7 @@ import SwiftUI
 struct AboutMeView: View {
     var body: some View {
         AboutMeContent()
-            .navigationTitle("About Me")
+            .navigationTitle("About Authors")
     }
 }
 

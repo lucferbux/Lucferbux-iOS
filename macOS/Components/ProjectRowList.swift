@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ProjectListView: View {
+struct ProjectRowList: View {
     var projectViewModel: ProjectViewModel
     
     var body: some View {
@@ -34,6 +34,6 @@ struct ProjectListView: View {
 struct ProjectListView_Previews: PreviewProvider {
     static var previews: some View {
         let project = projectListMock[0]
-        ProjectListView(projectViewModel: ProjectViewModel(project: project))
+        ProjectRowList(projectViewModel: ProjectViewModel(project: project))
     }
 }

@@ -27,11 +27,7 @@ struct PostViewRow: View {
                     url: URL(string: postViewModel.post.image)!,
                     placeholder: { Image("LoadingPlaceholder").resizable() },
                     image: {
-                        #if os(iOS)
                         Image(uiImage: $0).resizable()
-                        #else
-                        Image(nsImage: $0).resizable()
-                        #endif
                     }
                 )
                     .clipped()

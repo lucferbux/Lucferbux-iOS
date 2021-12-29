@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct NewsViewDetailContent: View {
+struct NewsDetailContent: View {
     var newsViewModel: NewsViewModel
     
     var body: some View {
@@ -65,14 +65,12 @@ struct NewsViewDetailContent: View {
                 Image(systemName: "safari")
             }
         }
-        
-        
     }
 }
 
 struct NewsViewDetailContent_Previews: PreviewProvider {
     static var previews: some View {
         let news = newsListMock[0]
-        NewsViewDetailContent(newsViewModel: NewsViewModel(news: news))
+        NewsDetailContent(newsViewModel: NewsViewModel(news: news))
     }
 }

@@ -8,7 +8,15 @@
 import Foundation
 import Combine
 
-class NewsViewModel: ObservableObject, Identifiable {
+class NewsViewModel: ObservableObject, Identifiable, Hashable {
+    
+    static func == (lhs: NewsViewModel, rhs: NewsViewModel) -> Bool {
+        return lhs._id == rhs._id
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(_id)
+    }
     
     private let newsRepository = NewsRepository()
     @Published var news: News

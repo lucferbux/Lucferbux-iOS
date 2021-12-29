@@ -1,23 +1,23 @@
 //
-//  NewsViewList.swift
-//  lucferbux ios
+//  NewsCardContent.swift
+//  Lucferbux (iOS)
 //
-//  Created by lucas fernández on 26/9/21.
+//  Created by Lucas Fernández Aragón on 29/12/21.
 //
 
 import SwiftUI
 
-struct NewsViewContent: View {
+struct NewsCardContent: View {
     @ObservedObject var newsListViewModel = NewsListViewModel()
-        
+    
     var body: some View {
-        ScrollView {            
+        ScrollView {
             LazyVGrid(
                 columns: [GridItem(.adaptive(minimum: 300), spacing: 20)],
                 spacing: 20) {
                     ForEach(newsListViewModel.newsViewModels) { newsViewModel in
                         
-                        NavigationLink(destination: NewsViewDetailContent(newsViewModel: newsViewModel)) {
+                        NavigationLink(destination: NewsDetailContent(newsViewModel: newsViewModel)) {
                             NewsCardView(newsViewModel: newsViewModel)
                         }
                         .buttonStyle(.plain)
@@ -25,11 +25,10 @@ struct NewsViewContent: View {
                 }.padding(.horizontal)
         }
     }
-                    
 }
 
-struct NewsViewList_Previews: PreviewProvider {
+struct NewsCardContent_Previews: PreviewProvider {
     static var previews: some View {
-        NewsViewContent()
+        NewsCardContent()
     }
 }

@@ -12,11 +12,11 @@ struct PostsView: View {
     
     var body: some View {
         if horizontalSizeClass == .compact {
-            PostViewContent()
+            PostListContent()
                 .background(Color("Background Body"))
                 .navigationTitle("Posts")
         } else {
-            PostViewCardContent()
+            PostCardContent()
                 .background(Color("Background Body"))
                 .navigationTitle("Posts")
         }

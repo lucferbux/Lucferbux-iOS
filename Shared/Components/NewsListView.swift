@@ -16,7 +16,11 @@ struct NewsListView: View {
                 url: URL(string: newsViewModel.news.image)!,
                 placeholder: { Image("LoadingPlaceholder").resizable() },
                 image: {
+                    #if os(iOS)
+                    Image(uiImage: $0).resizable()
+                    #else
                     Image(nsImage: $0).resizable()
+                    #endif
                 }
             )
              .clipped()
